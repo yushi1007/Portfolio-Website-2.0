@@ -1,17 +1,33 @@
-import React from 'react'
+import React from "react";
+import { Link } from "react-scroll";
+import { navigation } from "../data";
+import { HiOutlineMenuAlt2 } from 'react-icons/hi'
 
 const Navbar = () => {
+
   return (
-    <div className='flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-black'>
-      <h1 className='w-full text-3xl font-bold'>Yu Shi</h1>
-      <ul className='flex'>
-        <li className='p-4'>Home</li>
-        <li className='p-4'>About</li>
-        <li className='p-4'>Skills</li>
-        <li className='p-4'>Projects</li>
-        <li className='p-4'>Blogs</li>
-        <li className='p-4'>Resume</li>
-        <li className='p-4'>Contact</li>
+    <div>
+      <ul className="flex space-x-8 capitalize text-[15px]">
+        {navigation.map((item, index) => {
+          return(
+            <li 
+            className="text-white hover:bg-sky-600 cursor-pointer" 
+            key={index}
+            >
+              <Link 
+                to={item.href} 
+                activeClass='active' 
+                spy={true} 
+                smooth={true} 
+                duration={500}
+                offset={-70}
+                className='transition-all duration-300'
+              >
+                {item.name}
+              </Link>
+            </li>
+          )
+        })}
       </ul>
     </div>
   )
