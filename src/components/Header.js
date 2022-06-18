@@ -1,6 +1,8 @@
 import React, {useState, useEffect} from 'react';
 import Navbar from './Navbar';
 import MobileNavbar from './MobileNavbar';
+import Socials from './Socials';
+import { Link } from 'react-scroll';
 
 const Header = () => {
   const [bg, setBg] = useState(false);
@@ -11,13 +13,24 @@ const Header = () => {
     })
   })
   return (
-    <header className={`${bg ? 'bg-gray-900 h-16' : 'h-24'} flex items-center fixed top-0 w-full text-white z-10 transition-all duration-300`}>
+    <header className={`${bg ? 'bg-gray-1000 h-16' : 'h-24'} flex items-center fixed top-0 w-full text-white z-10 transition-all duration-300`}>
         <div className='container mx-auto h-full flex items-center justify-between'>
-            <a href='#'>
-                <h1 className='w-full text-3xl font-bold'>Yu Shi</h1>
-            </a>
+            <Link 
+                to="about" 
+                activeClass='active' 
+                spy={true} 
+                smooth={true} 
+                duration={500}
+                offset={-70}
+                className='cursor-pointer' 
+            >
+            <h1 className='w-full text-3xl font-bold'>Yu Shi</h1>
+            </Link>
             <div className='hidden lg:block'>
                 <Navbar />
+            </div>
+            <div className='hidden lg:block'>
+                <Socials />
             </div>
             <div className='lg:hidden'>
                 <MobileNavbar />

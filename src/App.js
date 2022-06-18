@@ -1,11 +1,12 @@
 import './App.css';
 import Header from './components/Header';
-import Navbar from './components/Navbar';
+import Home from './components/Home';
 
 function App() {
   return (
-    <div className='background'>
+    <div className='background relative'>
       <Header />
+      <Home />
       <div style={{ height: '2000px' }}></div>
     </div>
   );

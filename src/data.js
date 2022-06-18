@@ -24,8 +24,4 @@ export const navigation = [
       name: 'Resume',
       href: 'resume',
     },
-    {
-      name: 'Contact',
-      href: 'contact',
-    },
   ];
