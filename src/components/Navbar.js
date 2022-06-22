@@ -27,7 +27,7 @@ const Navbar = () => {
             </li>
           )
         })}
-        <li className="text-white text-base font-semibold  cursor-pointer">
+        <li className="text-white text-base font-semibold cursor-pointer">
           <Link 
                 to="contact" 
                 activeClass='active' 

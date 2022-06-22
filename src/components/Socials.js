@@ -4,7 +4,7 @@ import {
     FiGithub,
   
   } from 'react-icons/fi';
-import { FaLinkedin, FaMediumM, FaGithubAlt } from 'react-icons/fa'
+import { FaLinkedin, FaMediumM } from 'react-icons/fa'
 
 const Socials = () => {
   return (

@@ -4,7 +4,7 @@ import Home from './components/Home';
 
 function App() {
   return (
-    <div className='background relative'>
+    <div className='relative'>
       <Header />
       <Home />
       <div style={{ height: '2000px' }}></div>

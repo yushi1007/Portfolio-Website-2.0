@@ -13,8 +13,8 @@ const Header = () => {
     })
   })
   return (
-    <header className={`${bg ? 'bg-gray-1000 h-16' : 'h-24'} flex items-center fixed top-0 w-full text-white z-10 transition-all duration-300`}>
-        <div className='container mx-auto h-full flex items-center justify-between'>
+    <header className={`${bg ? 'h-16' : 'h-24'} flex items-center fixed top-0 w-full text-white z-10 transition-all duration-300`}>
+        <div className='container mx-auto h-full flex items-center justify-between px-6'>
             <Link 
                 to="about" 
                 activeClass='active' 
@@ -24,7 +24,7 @@ const Header = () => {
                 offset={-70}
                 className='cursor-pointer' 
             >
-            <h1 className='w-full text-3xl font-bold'>Yu Shi</h1>
+            <h1 className='w-full text-base font-bold'>Yu Shi</h1>
             </Link>
             <div className='hidden lg:block'>
                 <Navbar />
