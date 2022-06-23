@@ -5,14 +5,14 @@ const Home = () => {
     <div id="home" className='text-white lg:h-[85vh] flex items-center lg:bg-cover lg:bg-center lg:bg-no-repeat py-64 md:py-60 lg:py-0 overflow-hidden'>
       <div className='container mx-auto h-full px-6'>
         <div className='flex items-center h-full pt-8'>
-          <div className='flex-1 flex flex-col items-center lg:items-start'>
+          <div className='flex-1 flex flex-col mt-12 items-center lg:items-start'>
             <h1 className='font-bold leading-normal md:leading-normal lg:leading-normal text-5xl md:text-6xl lg:text-7xl text-center'>Hi There 👋 ,</h1>
             <h1 className='font-bold text-5xl md:text-6xl lg:text-7xl text-center'>I'm <span className='text-indigo-600'>Yu</span></h1>
             <h1 className='leading-10 md:leading-loose lg:leading-loose text-1xl md:text-2xl lg:text-4xl text-center'>
               I am a Web Developer
             </h1>
             <div className='w-full flex justify-center md:justify-center lg:justify-start'>
-              <button className='animate-float px-5 py-4 bg-indigo-600 font-bold mt-12 flex items-center space-x-3 rounded-lg'>
+              <button className='transition-all duration-300 animate-float px-5 py-4 bg-indigo-600 hover:bg-indigo-800 font-bold mt-12 flex items-center space-x-3 rounded-lg'>
                 <div>
                   <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                     <path d="M10 12a2 2 0 100-4 2 2 0 000 4z" />
