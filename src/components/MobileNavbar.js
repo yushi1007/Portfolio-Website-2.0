@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-scroll'
-import { navigation } from '../data'
+import { navigation } from '../data/data'
 import { motion } from 'framer-motion'
 import { RiMenu4Fill, RiCloseFill } from 'react-icons/ri'
 

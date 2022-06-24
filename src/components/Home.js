@@ -1,5 +1,5 @@
 import React from 'react'
-import TypeWriter from '../TypeWriter'
+import TypeWriter from './TypeWriter'
 
 const Home = () => {
   return (
@@ -9,7 +9,7 @@ const Home = () => {
           <div className='flex-1 flex flex-col mt-12 items-center lg:items-start'>
             <h1 className='font-bold leading-normal md:leading-normal lg:leading-normal text-5xl md:text-6xl lg:text-7xl text-center'>Hi There 👋 ,</h1>
             <h1 className='font-bold text-5xl md:text-6xl lg:text-7xl text-center'>I'm <span className='text-indigo-600'>Yu</span></h1>
-            <h1 className='leading-10 md:leading-loose lg:leading-loose text-1xl md:text-2xl lg:text-4xl text-center'>
+            <h1 className='leading-10 md:leading-loose lg:leading-loose text-2xl md:text-2xl lg:text-4xl text-center mt-3'>
               I am a <TypeWriter />
             </h1>
             <div className='w-full flex justify-center md:justify-center lg:justify-start'>
