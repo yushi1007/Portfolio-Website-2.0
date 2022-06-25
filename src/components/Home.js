@@ -1,9 +1,10 @@
 import React from 'react'
+import ParticlesBackground from './ParticlesBackground'
 import TypeWriter from './TypeWriter'
 
 const Home = () => {
   return (
-    <div id="home" className='text-white lg:h-[85vh] flex items-center lg:bg-cover lg:bg-center lg:bg-no-repeat py-64 md:py-60 lg:py-0 overflow-hidden'>
+    <div id="home" className='text-white lg:h-[100vh] flex items-center lg:bg-cover lg:bg-center lg:bg-no-repeat py-64 md:py-60 lg:py-0 overflow-hidden'>
       <div className='container mx-auto h-full px-6'>
         <div className='flex items-center h-full pt-8'>
           <div className='flex-1 flex flex-col mt-12 items-center lg:items-start'>
@@ -24,9 +25,7 @@ const Home = () => {
               </button>
             </div>
           </div>
-          <div className='hidden lg:flex flex-1 justify-end items-end h-full'>
-            animation
-          </div>
+          <ParticlesBackground id="tsparticles" />
         </div>
       </div>
     </div>
