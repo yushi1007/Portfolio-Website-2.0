@@ -5,11 +5,10 @@ import About from './components/About';
 
 function App() {
   return (
-    <div className='relative'>
+    <div>
       <Header />
       <Home />
       <About />
-      <div style={{ height: '2000px' }}></div>
     </div>
   );
 }

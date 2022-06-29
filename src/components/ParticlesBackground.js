@@ -1,10 +1,14 @@
 import React, { useCallback, useMemo } from 'react'
-import Particles from "react-tsparticles";
+import Particles from 'react-tsparticles';
 import { loadSlim } from "tsparticles-slim";
 
 const ParticlesBackground = (props) => {
   const options = useMemo(() => {
     return{
+      fullScreen: {
+        enable: false,
+        zIndex: 0,
+      },
       interactivity: {
         events: {
           onClick: {
@@ -28,7 +32,7 @@ const ParticlesBackground = (props) => {
       particles: {
         links: {
           enable: true,
-          color: "#098712"
+          color: '#248592'
         },
         move: {
           enable: true,
@@ -49,7 +53,9 @@ const ParticlesBackground = (props) => {
   }, [])
 
   return (
-    <Particles id={props.id} init={particlesInit} options={options} />
+    <div className="container-style">
+      <Particles id={props.id} init={particlesInit} options={options} />
+    </div>
   )
 }
 
