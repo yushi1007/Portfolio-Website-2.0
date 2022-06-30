@@ -1,8 +1,9 @@
 import React, {useState, useEffect} from 'react';
 import Navbar from './Navbar';
-import MobileNavbar from './MobileNavbar';
 import Socials from './Socials';
 import { Link } from 'react-scroll';
+import Bounce from 'react-reveal/Bounce';
+import MobileNavbar from './MobileNavbar';
 
 const Header = () => {
   const [bg, setBg] = useState(false);
@@ -12,6 +13,7 @@ const Header = () => {
         return window.scrollY > 50 ? setBg(true) : setBg(false);
     })
   })
+  
   return (
     <header className={`${bg ? 'h-16' : 'h-24'} flex items-center fixed top-0 w-full text-white z-10 transition-all duration-300`}>
         <div className='container mx-auto h-full flex items-center justify-between px-6'>
@@ -24,7 +26,9 @@ const Header = () => {
                 offset={-70}
                 className='cursor-pointer' 
             >
-            <h1 className='w-full text-base font-bold'>Yu Shi</h1>
+                <Bounce top cascade duration={800}>
+                    <h1 className='w-full text-base font-bold'>Yu Shi</h1>
+                </Bounce>
             </Link>
             <div className='hidden lg:block'>
                 <Navbar />
