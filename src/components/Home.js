@@ -18,7 +18,7 @@ const Home = () => {
             </Fade>
             <Fade delay={1400} bottom cascade>
               <div>
-                <h1 className='leading-10 md:leading-loose lg:leading-loose text-2xl md:text-2xl lg:text-4xl text-center mt-3'>
+                <h1 className='leading-10 md:leading-loose lg:leading-loose font-semibold text-2xl md:text-2xl lg:text-4xl text-center mt-3'>
                   I am a <TypeWriter />
                 </h1>
               </div>
