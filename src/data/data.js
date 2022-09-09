@@ -19,7 +19,7 @@ export const navigation = [
     },
     {
       name: 'Skills',
-      href: 'portfolio',
+      href: 'skills',
     },
     {
       name: 'Projects',

@@ -6,3 +6,8 @@ body {
     background-color: #17171F;
     font-family: 'Poppins', sans-serif;
 }
+
+body::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+  }
