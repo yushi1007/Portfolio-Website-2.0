@@ -27,7 +27,7 @@ const Header = () => {
                 className='cursor-pointer' 
             >
                 <Bounce top cascade duration={800}>
-                    <h1 className='w-full text-base font-bold'>Yu Shi</h1>
+                    <h1 className='w-full text-base font-semibold uppercase'>Yu Shi</h1>
                 </Bounce>
             </Link>
             <div className='hidden lg:block'>
