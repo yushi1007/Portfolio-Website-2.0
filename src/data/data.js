@@ -6,6 +6,12 @@ import SkillImg5 from '../assets/img/angular.png'
 import SkillImg6 from '../assets/img/TypeScript.png'
 import SkillImg7 from '../assets/img/Git.png'
 import SkillImg8 from '../assets/img/creativecloud.png'
+import ProjectImage1 from '../assets/img/fotoset.png'
+import ProjectImage2 from '../assets/img/travelatr.png'
+import ProjectImage3 from '../assets/img/quickpix.png'
+import ProjectImage4 from '../assets/img/amazonclone.png'
+import ProjectImage5 from '../assets/img/disneyclone.png'
+import ProjectImage6 from '../assets/img/spacebuddies.png'
 
 // navigation
 export const navigation = [
@@ -96,4 +102,96 @@ export const skillImages = [
     {
       image: SkillImg8,
     }
+]
+
+// project details
+export const projects = [
+  {
+    image: ProjectImage1,
+    name: "Fotoset",
+    description: "A photo sharing application with camera setting information, include map search, and weather search.",
+    tags:["React", "Redux", "Rails", "PostgreSQL", "JWT", "HTML", "CSS", "Maps JavaScript API", "Places API", "Geocoding API", "Yahoo Weather API", "EmailJS"],
+    frontend:"https://github.com/yushi1007/Fotoset-Frontend",
+    backend:"https://github.com/yushi1007/Fotoset-Backend",
+    live:"https://fotoset.netlify.app/",
+    video:"https://www.loom.com/share/4af16cfc047e43129db5cc362968db6a",
+    repo:"",
+  },
+  {
+    image: ProjectImage2,
+    name: "Travelatr",
+    description: "A travel information website provides latest travel destination recommendations, including facts, and flights search.",
+    tags:["React", "Rails", "PostgreSQL", "JWT", "HTML", "CSS", "Places API", "Skyscanner API"],
+    frontend:"https://github.com/yushi1007/Travelatr-Frontend",
+    backend:"https://github.com/jpham1109/Travelatr-Backend",
+    live:"https://travelatr.netlify.app/",
+    video:"https://www.loom.com/share/d988149f565c404bbc4f93fae8b5c976",
+    repo:"",
+  },
+  {
+    image: ProjectImage3,
+    name: "QuickPix",
+    description: "A photography e-commerce website that allows users place order and sell their own print.",
+    tags:["Rails", "PostgreSQL", "HTML", "CSS", "Bcrypt"],
+    frontend:"https://github.com/yushi1007/QuickPix/tree/main/app/views",
+    backend:"https://github.com/yushi1007/QuickPix",
+    live:"https://quickpix-yd.herokuapp.com/",
+    video:"https://www.loom.com/share/bb90c26da6fc4cf294de2159e2173dce",
+    repo:"",
+  },
+  {
+    image: ProjectImage4,
+    name: "Amazon Clone",
+    description: "This is an Amazon Clone that implemented the Stripe payment processor.",
+    tags:["React", "React Context API", "Firebase", "Stripe", "Material-UI", "HTML", "CSS"],
+    frontend:"https://github.com/yushi1007/Amazon-Clone/tree/main/src",
+    backend:"https://github.com/yushi1007/Amazon-Clone/tree/main/functions",
+    live:"https://e-commerce-store-app.web.app/",
+    video:"https://youtu.be/W37dflBSDGs",
+    repo:"",
+  },
+  {
+    image: ProjectImage5,
+    name: "Disney+ Clone",
+    description: "This is a Disney+ Clone that allows user to sign in with Google account and see all the movies' details.",
+    tags:["React", "Redux", "Firebase", "Styled-Components", "HTML", "CSS"],
+    frontend:"https://github.com/yushi1007/Disney-Plus-Clone",
+    backend:"https://github.com/yushi1007/Disney-Plus-Clone/blob/main/src/firebase.js",
+    live:"https://disney-plus-clone-app-e706d.web.app/",
+    video:"https://youtu.be/BqYtAKUvWoI",
+    repo:"",
+  },
+  {
+    image: ProjectImage6,
+    name: "Space Buddies",
+    description: "The encylopedia for space pets! A Ruby CLI application that allows user to sign in or sign up and meet some intergalactic friends!",
+    tags:["Ruby", "SQLite3"],
+    frontend:"",
+    backend:"",
+    live:"",
+    video:"",
+    repo:"https://github.com/sssandraa/project-1",
+  },
+  {
+    image: "",
+    name: "",
+    description: "",
+    tags:[],
+    frontend:"",
+    backend:"",
+    live:"",
+    video:"",
+    repo:"",
+  },
+  {
+    image: "",
+    name: "",
+    description: "",
+    tags:[],
+    frontend:"",
+    backend:"",
+    live:"",
+    video:"",
+    repo:"",
+  }
 ]
