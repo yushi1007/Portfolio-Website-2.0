@@ -59,4 +59,4 @@ const ParticlesBackground = (props) => {
   )
 }
 
-export default ParticlesBackground
+export default ParticlesBackground;

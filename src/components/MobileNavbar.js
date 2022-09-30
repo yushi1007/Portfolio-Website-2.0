@@ -92,4 +92,4 @@ const MobileNavbar = () => {
   )
 }
 
-export default MobileNavbar
+export default MobileNavbar;

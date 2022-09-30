@@ -24,4 +24,4 @@ const TypeWriter = () => {
   )
 }
 
-export default TypeWriter
+export default TypeWriter;
