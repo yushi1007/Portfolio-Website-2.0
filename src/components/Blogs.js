@@ -33,7 +33,7 @@ const Blogs = () => {
         <header className='flex flex-col items-center text-center'>
           <h2 className="font-medium text-4xl mb-20 text-transform: uppercase after:mx-auto after:mb-0 after:block after:mt-9 after:rounded-full after:h-1 after:w-24 after:-translate-y-1 after:bg-indigo-600 after:content-['']">Blogs</h2>
         </header>
-        <div>
+        <div className='flex flex-wrap -m-4'>
           {blogItems}
         </div>
       </div>

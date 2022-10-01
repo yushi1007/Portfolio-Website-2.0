@@ -2,8 +2,8 @@ import React from 'react'
 
 const Tag = ({ tag }) => {
   return (
-    <div className=''>
-          <span>{tag}</span>
+    <div>
+      <span className='text-xs'>{tag}</span>
     </div>
   )
 }
