@@ -22,7 +22,7 @@ const Footer = () => {
             {social.map((item, index) => {
               const { href, icon , color } = item;
               return(
-                <a className={`text-base ${color} hover:text-white border-2 p-2 border-indigo-600 hover:bg-indigo-600 rounded-full transition-all duration-300`} href={href} key={index}> 
+                <a href={href} key={index} className={`text-base ${color} hover:text-white border-2 p-2 border-indigo-600 hover:bg-indigo-600 rounded-full transition-all duration-300`}> 
                   {icon}
                 </a>
               ) 
