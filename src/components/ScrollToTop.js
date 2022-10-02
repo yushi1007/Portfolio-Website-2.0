@@ -1,26 +1,46 @@
-import React from 'react'
+import { useEffect, useState } from 'react'
+import { classNames } from '../utils/className';
+import { BiArrowFromBottom } from 'react-icons/bi'
 
 const ScrollToTop = () => { 
 
-    var toTopButton = document.getElementById("to-top-button");
+  const [isVisible, setIsVisible] = useState(false)
 
-    window.onscroll = function () {
-      if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-        toTopButton.classList.remove("hidden");
-      } else {
-        toTopButton.classList.add("hidden");
-        }
-      }
-  
-      const goToTop = () => {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
+  const toggleVisibility = () => {
+    if (window.pageYOffset > 300) {
+      setIsVisible(true)
+    } else {
+      setIsVisible(false)
     }
+  }
 
-return (
-    <div>
-        <button id="to-top-button" onClick={goToTop} title="Go To Top" class="hidden fixed z-90 bottom-8 right-8 border-0 w-16 h-16 rounded-full drop-shadow-md bg-indigo-500 text-white text-3xl font-bold">
-            Top
-        </button>
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    })
+  }
+
+  useEffect(() => {
+    window.addEventListener('scroll', toggleVisibility)
+
+    return () => {
+      window.removeEventListener('scroll', toggleVisibility)
+    }
+  }, [])
+
+  return (
+    <div className="fixed bottom-5 right-5 z-40">
+      <button
+        type="button"
+        onClick={scrollToTop}
+        className={classNames(
+          isVisible ? 'opacity-100' : 'opacity-0',
+          'border-2 border-indigo-600 bg-indigo-600 inline-flex items-center rounded-full p-3 text-white shadow-sm transition-all hover:bg-transparent duration-300',
+        )}
+      >
+        <BiArrowFromBottom className="h-6 w-6" aria-hidden="true" />
+      </button>
     </div>
   )
 }
