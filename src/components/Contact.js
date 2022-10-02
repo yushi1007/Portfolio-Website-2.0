@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from "react-scroll";
 import Email from '../assets/svg/email.svg';
 
 const Contact = () => {

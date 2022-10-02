@@ -1,11 +1,7 @@
 import React from 'react'
-import {
-    FiInstagram,
-    FiGithub,
-  
-  } from 'react-icons/fi';
 import Bounce from 'react-reveal/Bounce';
 import { FaLinkedin, FaMediumM } from 'react-icons/fa'
+import { FiInstagram, FiGithub } from 'react-icons/fi';
 
 const Socials = () => {
   return (

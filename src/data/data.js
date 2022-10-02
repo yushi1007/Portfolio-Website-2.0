@@ -12,6 +12,8 @@ import ProjectImage3 from '../assets/img/quickpix.png'
 import ProjectImage4 from '../assets/img/amazonclone.png'
 import ProjectImage5 from '../assets/img/disneyclone.png'
 import ProjectImage6 from '../assets/img/spacebuddies.png'
+import { FaLinkedin, FaMediumM } from 'react-icons/fa'
+import { FiInstagram, FiGithub } from 'react-icons/fi';
 
 // navigation
 export const navigation = [
@@ -40,6 +42,30 @@ export const navigation = [
       href: 'resume',
     },
   ];
+
+  // social media
+  export const social = [
+    {
+      icon: <FaLinkedin />,
+      href: 'https://www.linkedin.com/in/yushi95',
+      color: 'text-sky-500',
+    },
+    {
+      icon: <FiInstagram />,
+      href: 'https://www.instagram.com/yushi.95',
+      color: 'text-pink-600',
+    },
+    {
+      icon: <FiGithub />,
+      href: 'https://github.com/yushi1007',
+      color: '',
+    },
+    {
+      icon: <FaMediumM />,
+      href: 'https://yushi95.medium.com/',
+      color: '',
+    },
+  ]
 
   // about me
   export const aboutMe = [
