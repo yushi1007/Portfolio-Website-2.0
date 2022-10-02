@@ -2,7 +2,6 @@ import React from 'react'
 import Fade from 'react-reveal/Fade';
 import TypeWriter from './TypeWriter'
 import ParticlesBackground from './ParticlesBackground'
-import { AiFillEye } from 'react-icons/ai'
 
 const Home = () => {
   return (

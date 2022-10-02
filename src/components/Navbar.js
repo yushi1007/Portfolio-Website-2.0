@@ -36,7 +36,7 @@ const Navbar = () => {
                   smooth={true} 
                   duration={500}
                   offset={-70}
-                  className='transition-all duration-300 px-6 py-2 bg-indigo-600 hover:bg-indigo-800 rounded-bl-lg rounded-tr-lg' 
+                  className='transition-all duration-300 border-2 px-4 py-2 hover:bg-indigo-600 text-indigo-300 hover:text-white border-indigo-600 rounded' 
             >
               Contact
             </Link>
