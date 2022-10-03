@@ -36,7 +36,7 @@ const Navbar = () => {
               >
                 <Link 
                   to={item.href} 
-                  activeClass='active' 
+                  activeClass="active" 
                   spy={true} 
                   smooth={true} 
                   duration={700}
@@ -50,11 +50,11 @@ const Navbar = () => {
           })}
           <li className="contactlink text-white text-base font-normal cursor-pointer">
             <Link 
-                  to="contact" 
-                  activeClass='active' 
+                  to="contact"
+                  activeClass="active" 
                   spy={true} 
                   smooth={true} 
-                  duration={500}
+                  duration={700}
                   offset={-70}
                   className='transition-all duration-300 border-2 px-4 py-2 hover:bg-indigo-600 text-indigo-300 hover:text-white border-indigo-600 rounded' 
             >

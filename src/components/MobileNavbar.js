@@ -79,7 +79,7 @@ const MobileNavbar = () => {
           <li className="text-white text-base font-semibold  cursor-pointer">
             <Link 
                   to="contact" 
-                  activeClass='active' 
+                  activeClass="active" 
                   spy={true} 
                   smooth={true} 
                   duration={500}

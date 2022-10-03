@@ -2,8 +2,8 @@
   @apply text-indigo-300 transition-all duration-300 
 }
 
-.navlink .contactlink .active{
-  @apply bg-indigo-600 text-white
+.navlink .contactlink .active {
+  @apply bg-indigo-600 text-white 
 }
 
 .container-style {
