@@ -1,8 +1,16 @@
+.navlink li .active {
+  @apply text-indigo-300 transition-all duration-300 
+}
+
+.navlink .contactlink .active{
+  @apply bg-indigo-600 text-white
+}
+
 .container-style {
     height: 100vh; 
   }
   
-  #tsparticles {   
+#tsparticles {   
     height: 100vh;
     position: absolute;
     left: 0;

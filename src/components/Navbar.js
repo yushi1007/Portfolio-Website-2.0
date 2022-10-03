@@ -7,11 +7,31 @@ const Navbar = () => {
   return (
     <div>
       <Bounce top cascade duration={800}>
-        <ul className="flex space-x-12 capitalize text-[15px]">
+        <ul className="navlink flex space-x-12 capitalize text-[15px]">
           {navigation.map((item, index) => {
             return(
               <li 
-              className="text-white text-base font-semibold hover:text-indigo-400 cursor-pointer" 
+              className="
+              relative 
+              text-base 
+              font-normal 
+              text-white 
+              hover:text-indigo-300 
+              cursor-pointer 
+              before:content-[''] 
+              before:absolute 
+              before:block 
+              before:w-full 
+              before:h-[2px] 
+              before:left-0 
+              before:-bottom-1
+              before:bg-indigo-300
+              before:hover:scale-x-100
+              before:scale-x-0 
+              before:origin-top-left
+              before:transition 
+              before:ease-in-out 
+              before:duration-300" 
               key={index}
               >
                 <Link 
@@ -19,16 +39,16 @@ const Navbar = () => {
                   activeClass='active' 
                   spy={true} 
                   smooth={true} 
-                  duration={500}
+                  duration={700}
                   offset={-70}
-                  className='transition-all duration-300'
+                  className="transition-all duration-300"
                 >
                   {item.name}
                 </Link>
               </li>
             )
           })}
-          <li className="text-white text-base font-semibold cursor-pointer">
+          <li className="contactlink text-white text-base font-normal cursor-pointer">
             <Link 
                   to="contact" 
                   activeClass='active' 

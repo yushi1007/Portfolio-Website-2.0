@@ -15,7 +15,7 @@ const Header = () => {
   })
   
   return (
-    <header className={`${bg ? 'h-16' : 'h-24'} flex items-center fixed top-0 w-full text-white z-10 transition-all duration-300`}>
+    <header className={`${bg ? 'backdrop-filter backdrop-blur-lg bg-opacity-30 border-b-[0.5px] h-16' : 'h-24'} flex items-center fixed top-0 w-full text-white z-10 transition-all duration-300 border-gray-600`}>
         <div className='container mx-auto h-full flex items-center justify-between px-6'>
             <Link 
                 to="about" 
@@ -31,7 +31,7 @@ const Header = () => {
                 </Bounce>
             </Link>
             <div className='hidden lg:block'>
-                <Navbar />
+                <Navbar/>
             </div>
             <div className='hidden lg:block'>
                 <Socials />

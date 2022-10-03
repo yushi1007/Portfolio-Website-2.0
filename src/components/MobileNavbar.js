@@ -64,7 +64,9 @@ const MobileNavbar = () => {
             <li key={index} className='mb-8 font-semibold hover:text-sky-400'>
               <Link 
                to={item.href} 
-               smooth={true} 
+               smooth={true}
+               activeClass='active' 
+               spy={true}  
                duration={500} 
                offset={-70} 
                className='text-xl cursor-pointer capitalize'

@@ -68,7 +68,7 @@ import { projects } from '../data/data'
           <div>
             <img src={projects[currentIndex].image} alt='project_images' className='absolute inset-0 object-cover w-full h-full group-hover:scale-105 transition-all duration-500' />
             <div className='absolute right-0 w-full h-full bg-gradient-to-t from-neutral-900'></div>
-            <div className='px-14 lg:px-36 py-[24vh] absolute z-10 bottom-0 w-full max-w-[92vw] lg:max-w-none'>
+            <div className='px-14 lg:px-36 py-[24vh] absolute bottom-0 w-full max-w-[92vw] lg:max-w-none'>
               <div className='transition-transform duration-500 group-hover:-translate-y-full'>
                 <h4 className='mt-1 text-4xl lg:text-6xl font-display font-bold leading-[1.1] lg:leading-[1.1] mb-5'>
                   {projects[currentIndex].name}
@@ -122,7 +122,7 @@ import { projects } from '../data/data'
               </div>
             </div>
           </div>
-          <div className='absolute w-full top-1/2 transform -translate-y-1/2 px-3 flex justify-between items-center z-30'>
+          <div className='absolute w-full top-1/2 transform -translate-y-1/2 px-3 flex justify-between items-center'>
             <button onClick={handleOnPrevClick} className='bg-black text-white p-0.5 md:p-2 lg:p-2 rounded-full bg-opacity-40 cursor-pointer hover:bg-opacity-60 transition' >
               <MdOutlineKeyboardArrowLeft size={35} />
             </button>
