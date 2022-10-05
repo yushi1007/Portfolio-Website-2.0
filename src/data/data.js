@@ -38,8 +38,8 @@ export const navigation = [
       href: 'blogs',
     },
     {
-      name: 'Resume',
-      href: 'resume',
+      name: 'Contact',
+      href: 'contact',
     },
   ];
 
