@@ -40,7 +40,7 @@ const Navbar = () => {
                   spy={true} 
                   smooth={true} 
                   duration={700}
-                  offset={-70}
+                  offset={-100}
                   className="transition-all duration-300"
                 >
                   {item.name}
@@ -49,17 +49,9 @@ const Navbar = () => {
             )
           })}
           <li className="contactlink text-white text-base font-normal cursor-pointer">
-            <Link 
-                  to="contact"
-                  activeClass="active" 
-                  spy={true} 
-                  smooth={true} 
-                  duration={700}
-                  offset={-70}
-                  className='transition-all duration-300 border-2 px-4 py-2 hover:bg-indigo-600 text-indigo-300 hover:text-white border-indigo-600 rounded' 
-            >
-              Contact
-            </Link>
+            <a href="" className='transition-all duration-300 border-2 px-4 py-2 hover:bg-indigo-600 text-indigo-300 hover:text-white border-indigo-600 rounded' target="_blank" rel="noreferrer">
+              Resume
+            </a>
           </li>
         </ul>
       </Bounce>

@@ -81,7 +81,7 @@ import { projects } from '../data/data'
                   </p>
                 </div>
               </div>
-              <div className='flex flex-row gap-4 group-hover:translate-y-[200%] transition-transform duration-500 border-b-[0.5px] border-neutral-50/60 pb-3'> 
+              <div className='flex flex-wrap gap-3 group-hover:translate-y-[200%] transition-transform duration-500 border-b-[0.5px] border-neutral-50/60 pb-3'> 
                 {projects[currentIndex].tags.map((tag, index) => {
                   return(
                     <span key={index} className='text-xs lg:text-sm'>{tag}</span>
