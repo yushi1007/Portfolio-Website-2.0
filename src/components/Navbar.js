@@ -40,7 +40,7 @@ const Navbar = () => {
                   spy={true} 
                   smooth={true} 
                   duration={700}
-                  offset={-100}
+                  offset={-120}
                   className="transition-all duration-300"
                 >
                   {item.name}

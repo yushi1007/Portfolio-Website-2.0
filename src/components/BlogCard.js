@@ -13,7 +13,7 @@ const BlogCard = ({ title, image, link, tags, pubDate }) => {
         <div>
           <a href={link} target="_blank" rel="noreferrer">
             <img
-              className="lg:h-72 md:h-48 h-72 w-full object-cover object-center"
+              className="lg:h-72 md:h-72 w-full object-cover object-center"
               src={image}
               alt="blog"
             />
