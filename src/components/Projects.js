@@ -86,34 +86,34 @@ const Projects = () => {
                   )
                 })}
               </div>
-              <div className='flex flex-wrap mt-4'>
+              <div className='flex flex-gap mt-4'>
                 <div>
                   {checkLink(projects[currentIndex].repo) ? <a href={projects[currentIndex].repo} className='lg:text-base md:text-base text-[10px] transition-all duration-300 py-1 px-1 text-blue-dark bg-indigo-600 hover:bg-indigo-800 font-semibold flex items-center space-x-1 rounded' target="_blank" rel="noreferrer">
-                    <DiGithubAlt size={20} />
+                    <span className='lg:text-xl md:text-xl text-sm'><DiGithubAlt /></span>
                     <span>Repo</span>
                   </a> : null}
                 </div>
                 <div className='mr-3'>
                   {checkLink(projects[currentIndex].frontend) ? <a href={projects[currentIndex].frontend} className='lg:text-base md:text-base text-[10px] transition-all duration-300 py-1 px-1 text-blue-dark bg-indigo-600 hover:bg-indigo-800 font-semibold flex items-center space-x-1 rounded' target="_blank" rel="noreferrer">
-                    <DiGithubAlt size={20} />
+                    <span className='lg:text-xl md:text-xl text-sm'><DiGithubAlt /></span>
                     <span>Frontend</span>
                   </a> : null}
                 </div>
                 <div className='mr-3'>
                   {checkLink(projects[currentIndex].backend) ? <a href={projects[currentIndex].backend} className='lg:text-base md:text-base text-[10px] transition-all duration-300 py-1 px-1 text-blue-dark bg-indigo-600 hover:bg-indigo-800 font-semibold flex items-center space-x-1 rounded' target="_blank" rel="noreferrer">
-                    <DiGithubAlt size={20} />
+                    <span className='lg:text-xl md:text-xl text-sm'><DiGithubAlt /></span>
                     <span>Backend</span>
                   </a> : null}
                 </div>
                 <div className='mr-3'>
                   {checkLink(projects[currentIndex].live) ? <a href={projects[currentIndex].live} className='lg:text-base md:text-base text-[10px] transition-all duration-300 py-1 px-1 text-blue-dark bg-indigo-600 hover:bg-indigo-800 font-semibold flex items-center space-x-1 rounded' target="_blank" rel="noreferrer">
-                    <CgWebsite size={20} />
+                    <span className='lg:text-xl md:text-xl text-sm'><CgWebsite /></span>
                     <span>Live</span>
                   </a> : null}
                 </div>
                 <div className='mr-3'>
                   {checkLink(projects[currentIndex].video) ? <a href={projects[currentIndex].video} className='lg:text-base md:text-base text-[10px] transition-all duration-300 py-1 px-1 text-blue-dark bg-indigo-600 hover:bg-indigo-800 font-semibold flex items-center space-x-1 rounded' target="_blank" rel="noreferrer">
-                    <MdLiveTv size={20} />
+                    <span className='lg:text-xl md:text-xl text-sm'><MdLiveTv /></span>
                     <span>Video</span>
                   </a> : null}
                 </div>
