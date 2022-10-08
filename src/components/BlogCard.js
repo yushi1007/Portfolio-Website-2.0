@@ -9,7 +9,7 @@ const BlogCard = ({ title, image, link, tags, pubDate }) => {
 
   return (
     <div className="cursor-pointer p-4 sm:w-1/2 md:w-2/4 lg:w-1/3 transition-all duration-300 hover:-translate-y-2">
-      <div className="transition-all duration-300 hover:bg-indigo-600 h-full border border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+      <div className="h-full rounded-lg overflow-hidden shadow-lg shadow-indigo-200/20">
         <div>
           <a href={link} target="_blank" rel="noreferrer">
             <img
