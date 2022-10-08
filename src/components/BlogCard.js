@@ -1,10 +1,10 @@
 import React from "react";
-import Tag from "./Tag";
+import BlogTag from "./BlogTag";
 import { MdArrowForward } from "react-icons/md";
 
 const BlogCard = ({ title, image, link, tags, pubDate }) => {
   const blogTags = tags.map((tag, index) => {
-    return <Tag key={index} tag={tag} />;
+    return <BlogTag key={index} tag={tag} />;
   });
 
   return (

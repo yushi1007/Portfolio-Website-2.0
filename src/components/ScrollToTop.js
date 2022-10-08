@@ -1,33 +1,32 @@
-import { useEffect, useState } from 'react'
-import { classNames } from '../utils/className';
-import { BiArrowFromBottom } from 'react-icons/bi'
+import { useEffect, useState } from "react";
+import { classNames } from "../utils/className";
+import { BiArrowFromBottom } from "react-icons/bi";
 
-const ScrollToTop = () => { 
-
-  const [isVisible, setIsVisible] = useState(false)
+const ScrollToTop = () => {
+  const [isVisible, setIsVisible] = useState(false);
 
   const toggleVisibility = () => {
     if (window.pageYOffset > 300) {
-      setIsVisible(true)
+      setIsVisible(true);
     } else {
-      setIsVisible(false)
+      setIsVisible(false);
     }
-  }
+  };
 
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: 'smooth',
-    })
-  }
+      behavior: "smooth",
+    });
+  };
 
   useEffect(() => {
-    window.addEventListener('scroll', toggleVisibility)
+    window.addEventListener("scroll", toggleVisibility);
 
     return () => {
-      window.removeEventListener('scroll', toggleVisibility)
-    }
-  }, [])
+      window.removeEventListener("scroll", toggleVisibility);
+    };
+  }, []);
 
   return (
     <div className="fixed bottom-5 right-5 z-10">
@@ -35,14 +34,14 @@ const ScrollToTop = () => {
         type="button"
         onClick={scrollToTop}
         className={classNames(
-          isVisible ? 'opacity-100' : 'opacity-0',
-          'border-2 border-indigo-600 bg-indigo-600 inline-flex items-center rounded-full p-3 text-white shadow-sm transition-all hover:bg-transparent duration-300',
+          isVisible ? "opacity-100" : "opacity-0",
+          "border-2 border-indigo-600 bg-indigo-600 inline-flex items-center rounded-full p-3 text-white shadow-sm transition-all hover:bg-transparent duration-300"
         )}
       >
         <BiArrowFromBottom className="h-6 w-6" aria-hidden="true" />
       </button>
     </div>
-  )
-}
+  );
+};
 
-export default ScrollToTop
+export default ScrollToTop;

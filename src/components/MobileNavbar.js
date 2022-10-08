@@ -51,7 +51,7 @@ const MobileNavbar = () => {
       <motion.ul 
         variants={ulVariants} 
         initial='hidden' 
-        animate={isOpen ? 'visible' : ''}
+        animate={isOpen ? 'visible' : 'hidden'}
         className={`${isOpen ? 'right-0' : '-right-full'} fixed top-0 bottom-0 w-full flex flex-col justify-center items-center transition-all duration-300 overflow-hidden`}
       >
         <div 
@@ -68,7 +68,7 @@ const MobileNavbar = () => {
                activeClass='active' 
                spy={true}  
                duration={500} 
-               offset={-70} 
+               offset={-120} 
                className='text-xl cursor-pointer capitalize'
                >
                 {item.name}
