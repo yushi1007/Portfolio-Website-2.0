@@ -24,8 +24,8 @@ const ProjectCard = ({ projectItem, projectTags }) => {
         className="object-cover w-full h-[450px] transition-all duration-500"
       />
       <div className="absolute bottom-0 right-0 w-full h-full bg-gradient-to-t from-neutral-900"></div>
-      <div className="absolute bottom-3 left-0 px-6 py-4">
-        <h4 className="mb-5 text-4xl font-semibold tracking-tight">{projectItem.name}</h4>
+      <div className="absolute bottom-3 left-0 lg:px-6 md:px-6 px-4 py-4 w-full">
+        <h4 className="mb-5 text-3xl lg:text-4xl md:text-4l font-semibold tracking-tight">{projectItem.name}</h4>
         <p className="mb-5 text-[13px] leading-normal">{projectItem.description}</p>
         <div className="">
           <div className="flex flex-wrap lg:gap-1 md:gap-3 gap-2 border-b-[0.5px] border-neutral-50/60 pb-3">
@@ -36,7 +36,7 @@ const ProjectCard = ({ projectItem, projectTags }) => {
               {checkLink(projectItem.repo) ? (
                 <a
                   href={projectItem.repo}
-                  className="lg:text-base md:text-base text-[10px] transition-all duration-300 border-2 px-4 py-2 hover:bg-indigo-600 text-indigo-300 hover:text-white border-indigo-600 rounded font-semibold flex items-center space-x-1"
+                  className="lg:text-base md:text-base text-[10px] transition-all duration-300 border-2 px-3 py-2 lg:px-4 lg:py-2 md:px-4 md:py-2 hover:bg-indigo-600 text-indigo-300 hover:text-white border-indigo-600 rounded font-semibold flex items-center space-x-1"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -51,7 +51,7 @@ const ProjectCard = ({ projectItem, projectTags }) => {
               {checkLink(projectItem.frontend) ? (
                 <a
                   href={projectItem.frontend}
-                  className="lg:text-base md:text-base text-[10px] transition-all duration-300 border-2 px-4 py-2 hover:bg-indigo-600 text-indigo-300 hover:text-white border-indigo-600 rounded font-semibold flex items-center space-x-1"
+                  className="lg:text-base md:text-base text-[10px] transition-all duration-300 border-2 px-3 py-2 lg:px-4 lg:py-2 md:px-4 md:py-2 hover:bg-indigo-600 text-indigo-300 hover:text-white border-indigo-600 rounded font-semibold flex items-center space-x-1"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -66,7 +66,7 @@ const ProjectCard = ({ projectItem, projectTags }) => {
               {checkLink(projectItem.backend) ? (
                 <a
                   href={projectItem.backend}
-                  className="lg:text-base md:text-base text-[10px] transition-all duration-300 border-2 px-4 py-2 hover:bg-indigo-600 text-indigo-300 hover:text-white border-indigo-600 rounded font-semibold flex items-center space-x-1"
+                  className="lg:text-base md:text-base text-[10px] transition-all duration-300 border-2 px-3 py-2 lg:px-4 lg:py-2 md:px-4 md:py-2 hover:bg-indigo-600 text-indigo-300 hover:text-white border-indigo-600 rounded font-semibold flex items-center space-x-1"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -81,7 +81,7 @@ const ProjectCard = ({ projectItem, projectTags }) => {
               {checkLink(projectItem.live) ? (
                 <a
                   href={projectItem.live}
-                  className="lg:text-base md:text-base text-[10px] transition-all duration-300 border-2 px-4 py-2 hover:bg-indigo-600 text-indigo-300 hover:text-white border-indigo-600 rounded font-semibold flex items-center space-x-1"
+                  className="lg:text-base md:text-base text-[10px] transition-all duration-300 border-2 px-3 py-2 lg:px-4 lg:py-2 md:px-4 md:py-2 hover:bg-indigo-600 text-indigo-300 hover:text-white border-indigo-600 rounded font-semibold flex items-center space-x-1"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -96,7 +96,7 @@ const ProjectCard = ({ projectItem, projectTags }) => {
               {checkLink(projectItem.video) ? (
                 <a
                   href={projectItem.video}
-                  className="lg:text-base md:text-base text-[10px] transition-all duration-300 border-2 px-4 py-2 hover:bg-indigo-600 text-indigo-300 hover:text-white border-indigo-600 rounded font-semibold flex items-center space-x-1"
+                  className="lg:text-base md:text-base text-[10px] transition-all duration-300 border-2 px-3 py-2 lg:px-4 lg:py-2 md:px-4 md:py-2 hover:bg-indigo-600 text-indigo-300 hover:text-white border-indigo-600 rounded font-semibold flex items-center space-x-1"
                   target="_blank"
                   rel="noreferrer"
                 >

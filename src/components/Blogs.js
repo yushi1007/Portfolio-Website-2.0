@@ -32,13 +32,13 @@ const Blogs = () => {
       id="blogs"
       className="text-white mt-40 flex justify-between items-center mx-auto px-6 md:px-6 lg:px-6 w-full"
     >
-      <div className="container mx-auto px-6">
+      <div className="container mx-auto lg:px-6 md:px-6">
         <header className="flex flex-col items-center text-center">
           <h2 className="font-bold text-4xl mb-20 text-transform: uppercase after:mx-auto after:mb-0 after:block after:mt-9 after:rounded-full after:h-1 after:w-24 after:-translate-y-1 after:bg-indigo-600 after:content-['']">
             Blogs
           </h2>
         </header>
-        <div className="flex flex-wrap -m-4">{blogItems}</div>
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-14 md:gap-10 lg:gap-14 w-full">{blogItems}</div>
       </div>
     </div>
   );
