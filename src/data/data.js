@@ -12,6 +12,7 @@ import ProjectImage3 from "../assets/img/quickpix.png";
 import ProjectImage4 from "../assets/img/amazonclone.png";
 import ProjectImage5 from "../assets/img/disneyclone.png";
 import ProjectImage6 from "../assets/img/spacebuddies.png";
+import ProjectImage7 from "../assets/img/oldportfolio.png";
 import { FaLinkedin, FaMediumM } from "react-icons/fa";
 import { FiInstagram, FiGithub } from "react-icons/fi";
 
@@ -209,7 +210,7 @@ export const projects = [
     frontend: "https://github.com/yushi1007/Amazon-Clone/tree/main/src",
     backend: "https://github.com/yushi1007/Amazon-Clone/tree/main/functions",
     live: "https://e-commerce-store-app.web.app/",
-    video: "https://youtu.be/W37dflBSDGs",
+    video: "",
     repo: "",
   },
   {
@@ -222,7 +223,7 @@ export const projects = [
     backend:
       "https://github.com/yushi1007/Disney-Plus-Clone/blob/main/src/firebase.js",
     live: "https://disney-plus-clone-app-e706d.web.app/",
-    video: "https://youtu.be/BqYtAKUvWoI",
+    video: "",
     repo: "",
   },
   {
@@ -238,15 +239,15 @@ export const projects = [
     repo: "https://github.com/sssandraa/project-1",
   },
   {
-    image: "",
-    name: "",
-    description: "",
-    tags: [],
+    image: ProjectImage7,
+    name: "Previous Portfolio Website",
+    description: "This is my previous portfolio website. Built with React and Vanilla CSS.",
+    tags: ["REACT", "HTML", "CSS", "EMAILJS"],
     frontend: "",
     backend: "",
-    live: "",
+    live: "https://www.yushi.dev/",
     video: "",
-    repo: "",
+    repo: "https://github.com/yushi1007/portfolio-website",
   },
   {
     image: "",
