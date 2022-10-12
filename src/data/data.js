@@ -251,9 +251,9 @@ export const projects = [
   },
   {
     image: "",
-    name: "",
-    description: "",
-    tags: [],
+    name: "New Portfolio Website",
+    description: "This is my new portfolio website. Built with React and Tailwind CSS.",
+    tags: ["REACT", "HTML", "Tailwind CSS"],
     frontend: "",
     backend: "",
     live: "",
