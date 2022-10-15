@@ -1,10 +1,6 @@
 import React, { useState, useEffect } from "react";
-import Navbar from "./Navbar";
 import Socials from "./Socials";
 import { Link } from "react-scroll";
-import { RiMenu4Fill, RiCloseFill } from "react-icons/ri";
-import Bounce from "react-reveal/Bounce";
-import MobileNavbar from "./MobileNavbar";
 import { navigation } from "../data/data";
 
 const Header = () => {
@@ -41,7 +37,6 @@ const Header = () => {
               </Link>
             </div>
             <div className="link-container">
-          <Bounce top cascade duration={800}>
               <ul className="navlink text-white flex justify-center items-center lg:space-x-12 capitalize text-[15px]">
                 {navigation.map((item, index) => {
                   return (
@@ -94,7 +89,6 @@ const Header = () => {
                   </a>
                 </li>
               </ul>
-          </Bounce>
             </div>
             <div className="social lg:block hidden">
               <Socials />

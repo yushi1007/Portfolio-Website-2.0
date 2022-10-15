@@ -1,10 +1,8 @@
 import React from "react";
 import { social } from "../data/data";
-import Bounce from "react-reveal/Bounce";
 
 const Socials = () => {
   return (
-    <Bounce top cascade duration={800}>
       <ul className="flex space-x-6">
         {social.map((item, index) => {
           const { href, icon, color } = item;
@@ -22,7 +20,6 @@ const Socials = () => {
           );
         })}
       </ul>
-    </Bounce>
   );
 };
 

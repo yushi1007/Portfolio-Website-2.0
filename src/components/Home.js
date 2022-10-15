@@ -1,9 +1,6 @@
 import React from "react";
-import Fade from "react-reveal/Fade";
 import TypeWriter from "./TypeWriter";
-import Background from "../assets/img/background.png";
 import { Link } from "react-scroll";
-import ParticlesBackground from "./ParticlesBackground";
 
 const Home = () => {
   return (
@@ -26,28 +23,21 @@ const Home = () => {
       <div className="relative container mx-auto h-full px-6">
         <div className="flex items-center h-full pt-8">
           <div className="flex-1 flex flex-col mt-12 items-center lg:items-start">
-            <Fade delay={1000} bottom cascade>
               <div>
                 <h1 className="font-bold leading-normal md:leading-normal lg:leading-normal text-5xl md:text-6xl lg:text-7xl text-center">
                   Hi There 👋 ,
                 </h1>
               </div>
-            </Fade>
-            <Fade delay={1200} bottom cascade>
               <div>
                 <h1 className="font-bold text-5xl md:text-6xl lg:text-7xl text-center">
                   I'm <span className="text-indigo-600">Yu</span>
                 </h1>
               </div>
-            </Fade>
-            <Fade delay={1400} bottom cascade>
               <div>
                 <h1 className="leading-10 md:leading-loose lg:leading-loose font-semibold text-2xl md:text-2xl lg:text-4xl text-center mt-3">
                   I am a <TypeWriter />
                 </h1>
               </div>
-            </Fade>
-            <Fade delay={1600} bottom cascade>
               <div>
                 <div className="w-full flex justify-center md:justify-center lg:justify-start">
                   <Link
@@ -79,7 +69,6 @@ const Home = () => {
                   </Link>
                 </div>
               </div>
-            </Fade>
           </div>
         </div>
       </div>
