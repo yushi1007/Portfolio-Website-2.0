@@ -20,15 +20,15 @@
   }
 
   #background{
-    background: url(/Users/yushi/Projects/New-Portfolio/new-portfolio/src/assets/img/background.png);
+    background-image: url('/Users/yushi/Projects/New-Portfolio/new-portfolio/src/assets/img/background.png');
   }
 
   #mobile-background {
-    background: url(/Users/yushi/Projects/New-Portfolio/new-portfolio/src/assets/img/background3.png);
+    background-image: url('/Users/yushi/Projects/New-Portfolio/new-portfolio/src/assets/img/background3.png');
   }
 
   #tablet-background {
-    background: url(/Users/yushi/Projects/New-Portfolio/new-portfolio/src/assets/img/background2.png);
+    background-image: url('/Users/yushi/Projects/New-Portfolio/new-portfolio/src/assets/img/background2.png');
   }
 
   .profile_img {
