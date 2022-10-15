@@ -3,6 +3,7 @@ import { Link } from 'react-scroll'
 import { navigation } from '../data/data'
 import { motion } from 'framer-motion'
 import { RiMenu4Fill, RiCloseFill } from 'react-icons/ri'
+import background from '../assets/img'
 
 const MobileNavbar = () => {
   const [isOpen, setIsOpen] = useState(false); 

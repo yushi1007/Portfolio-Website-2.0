@@ -19,20 +19,20 @@
     z-index: 0;
   }
 
-  /* #background{
-    background-image: url('/Users/yushi/Projects/New-Portfolio/new-portfolio/src/assets/img/background.png');
+  #background{
+    background-image: url("../assets/img/background.png");
   }
 
   #mobile-background {
-    background-image: url('/Users/yushi/Projects/New-Portfolio/new-portfolio/src/assets/img/background3.png');
+    background-image: url("../assets/img/background3.png");
   }
 
   #tablet-background {
-    background-image: url('/Users/yushi/Projects/New-Portfolio/new-portfolio/src/assets/img/background2.png');
-  } */
+    background-image: url("../assets/img/background2.png");
+  }
 
   .profile_img {
-    /* background: url(/Users/yushi/Projects/New-Portfolio/new-portfolio/src/assets/img/mymemoji.jpg); */
+    background: url("../assets/img/mymemoji.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
