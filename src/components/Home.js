@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div
       id="home"
-      className="text-white lg:h-[100vh] md:h-[100vh] h-[100vh] flex items-center lg:bg-cover lg:bg-center lg:bg-no-repeat lg:py-0 overflow-hidden"
+      className="text-white w-full lg:h-[100vh] md:h-[100vh] h-[100vh] flex items-center lg:bg-cover lg:bg-center lg:bg-no-repeat lg:py-0 overflow-hidden"
     >
       <div
         id="background"
@@ -18,7 +18,7 @@ const Home = () => {
       ></div>
       <div
         id="mobile-background"
-        className="absolute w-full h-screen bg-no-repeat bg-cover min-w-[2100px] min-h-[1500px] -right-10 -z-10 lg:hidden md:hidden block"
+        className="lg:hidden md:hidden block"
       ></div>
       <div className="relative container mx-auto h-full px-6">
         <div className="flex items-center h-full pt-8">

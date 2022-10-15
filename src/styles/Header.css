@@ -106,6 +106,7 @@ color: white;
 
   .navbar .navlink li{
       display: none;
+      margin: 0 0 0 0;
   }
 
   .list-container{
