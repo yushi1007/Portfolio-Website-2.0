@@ -22,28 +22,31 @@ const Header = () => {
   });
 
   return (
-    <div id="header" className="header-box text-white">
-      <div className="navbar container mx-auto px-6">
-        <Link
-          to="about"
-          activeClass="active"
-          spy={true}
-          smooth={true}
-          duration={500}
-          offset={-70}
-          className="cursor-pointer"
-        >
-          <Bounce top cascade duration={800}>
-            <h1 className="logo">Yu Shi</h1>
-          </Bounce>
-        </Link>
-        <ul className="navlink flex space-x-12 capitalize text-[15px]">
-          {navigation.map((item, index) => {
+    <div id="navbar" className="navbar-box">
+      <div
+        className={`${
+          open ? "navbar active" : "navbar"
+        } w-full h-full lg:flex lg:items-center lg:justify-between items-center backdrop-filter backdrop-blur-lg bg-opacity-30 border-b-[0.5px] border-gray-600`}
+      >
+        <div className="list-container container mx-auto lg:flex h-full items-center justify-between px-6">
+          <Bounce right cascade duration={800}>
+            <div className="flex items-center h-[50px]">
+              <Link
+                to="about"
+                activeClass="active"
+                spy={true}
+                smooth={true}
+                duration={700}
+              >
+                <h3 className="">Yu Shi</h3>
+              </Link>
+            </div>
+            <ul className="navlink text-white flex justify-center items-center lg:space-x-12 capitalize text-[15px]">
+            {navigation.map((item, index) => {
             return (
               <li
-                key={index}
                 className="
-                relative 
+              relative 
               text-base 
               font-normal 
               text-white 
@@ -63,6 +66,7 @@ const Header = () => {
               before:transition 
               before:ease-in-out 
               before:duration-300"
+                key={index}
               >
                 <Link
                   to={item.href}
@@ -71,13 +75,14 @@ const Header = () => {
                   smooth={true}
                   duration={700}
                   offset={-150}
+                  className="transition-all duration-300"
                 >
                   {item.name}
                 </Link>
               </li>
             );
           })}
-          <li className="text-base font-normal cursor-pointer">
+          <li className="text-white text-base font-normal cursor-pointer">
             <a
               href=""
               className="transition-all duration-300 border-2 px-4 py-2 hover:bg-indigo-600 text-indigo-300 hover:text-white border-indigo-600 rounded"
@@ -87,17 +92,19 @@ const Header = () => {
               Resume
             </a>
           </li>
-        </ul>
-        <div className="hidden lg:block">
-          <Socials />
-        </div>
-        <div
-          className={`${open ? "hamburger active" : "hamburger"} px-6`}
-          onClick={handleNavbarClick}
-        >
-          <li className="line"></li>
-          <li className="line"></li>
-          <li className="line"></li>
+            </ul>
+            <div className="social lg:block hidden">
+              <Socials />
+            </div>
+          </Bounce>
+          <div
+            className={open ? "hamburger active" : "hamburger"}
+            onClick={handleNavbarClick}
+          >
+            <li className="line"></li>
+            <li className="line"></li>
+            <li className="line"></li>
+          </div>
         </div>
       </div>
     </div>

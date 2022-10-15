@@ -59,12 +59,12 @@ export const social = [
   {
     icon: <FiGithub />,
     href: "https://github.com/yushi1007",
-    color: "",
+    color: "text-white",
   },
   {
     icon: <FaMediumM />,
     href: "https://yushi95.medium.com/",
-    color: "",
+    color: "text-white",
   },
 ];
 
