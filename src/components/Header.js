@@ -28,9 +28,8 @@ const Header = () => {
           open ? "navbar active" : "navbar"
         } w-full h-full lg:flex lg:items-center lg:justify-between items-center backdrop-filter backdrop-blur-lg bg-opacity-30 border-b-[0.5px] border-gray-600`}
       >
-        <div className="list-container container mx-auto lg:flex h-full items-center justify-between px-6">
-          <Bounce right cascade duration={800}>
-            <div className="flex items-center h-[50px]">
+        <div className="list-container container mx-auto flex h-full items-center justify-between px-6">
+            <div className="logo flex items-center h-[50px]">
               <Link
                 to="about"
                 activeClass="active"
@@ -41,11 +40,13 @@ const Header = () => {
                 <h3 className="">Yu Shi</h3>
               </Link>
             </div>
-            <ul className="navlink text-white flex justify-center items-center lg:space-x-12 capitalize text-[15px]">
-            {navigation.map((item, index) => {
-            return (
-              <li
-                className="
+            <div className="link-container">
+          <Bounce top cascade duration={800}>
+              <ul className="navlink text-white flex justify-center items-center lg:space-x-12 capitalize text-[15px]">
+                {navigation.map((item, index) => {
+                  return (
+                    <li
+                      className="
               relative 
               text-base 
               font-normal 
@@ -66,37 +67,38 @@ const Header = () => {
               before:transition 
               before:ease-in-out 
               before:duration-300"
-                key={index}
-              >
-                <Link
-                  to={item.href}
-                  activeClass="active"
-                  spy={true}
-                  smooth={true}
-                  duration={700}
-                  offset={-150}
-                  className="transition-all duration-300"
-                >
-                  {item.name}
-                </Link>
-              </li>
-            );
-          })}
-          <li className="text-white text-base font-normal cursor-pointer">
-            <a
-              href=""
-              className="transition-all duration-300 border-2 px-4 py-2 hover:bg-indigo-600 text-indigo-300 hover:text-white border-indigo-600 rounded"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Resume
-            </a>
-          </li>
-            </ul>
+                      key={index}
+                    >
+                      <Link
+                        to={item.href}
+                        activeClass="active"
+                        spy={true}
+                        smooth={true}
+                        duration={700}
+                        offset={-150}
+                        className="transition-all duration-300"
+                      >
+                        {item.name}
+                      </Link>
+                    </li>
+                  );
+                })}
+                <li className="text-white text-base font-normal cursor-pointer">
+                  <a
+                    href=""
+                    className="transition-all duration-300 border-2 px-4 py-2 hover:bg-indigo-600 text-indigo-300 hover:text-white border-indigo-600 rounded"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Resume
+                  </a>
+                </li>
+              </ul>
+          </Bounce>
+            </div>
             <div className="social lg:block hidden">
               <Socials />
             </div>
-          </Bounce>
           <div
             className={open ? "hamburger active" : "hamburger"}
             onClick={handleNavbarClick}

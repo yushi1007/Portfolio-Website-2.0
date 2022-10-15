@@ -91,8 +91,12 @@ color: white;
 /* ----------------------------------------------- */
 @media only screen and (max-width: 1023px) {
   .list-container{
-display: flex;
+    display: flex;
   }
+
+  .navbar .navlink li{
+    margin: 0 0 0 48px;
+}
 }
 
 @media only screen and (max-width: 880px) {
@@ -106,6 +110,12 @@ display: flex;
 
   .list-container{
     display: block;
+  }
+
+  .link-container {
+    height: 100%;
+    width: 100%;
+    margin-top: 10rem;
   }
 
   .navlink {
@@ -142,6 +152,10 @@ display: flex;
       background-color: rgba(0, 0, 0, 0.3);
       /* -webkit-backdrop-filter: blur(10px); */
               /* backdrop-filter: blur(10px); */
+    }
+
+    .navbar.active .logo {
+      display: none;
     }
 
     .navbar.active .navlink {
