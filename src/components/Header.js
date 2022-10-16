@@ -24,9 +24,12 @@ const Header = () => {
   return (
     <div id="navbar" className="navbar-box">
       <div
-        className={`${
-          open ? "navbar active" : "navbar"}
-         w-full h-full lg:flex lg:items-center lg:justify-between items-center backdrop-filter backdrop-blur-lg bg-opacity-30 border-b-[0.5px] border-gray-600`}
+        className={`${open ? "navbar active" : "navbar"} ${
+          bg
+            ? "backdrop-filter backdrop-blur-lg bg-opacity-30 border-b-[0.5px] h-16 border-gray-500"
+            : "h-24"
+        }
+         w-full h-full lg:flex lg:items-center lg:justify-between items-center`}
       >
         <div className="list-container container mx-auto flex h-full items-center justify-between px-6">
           <div className="logo flex items-center h-[64px]">
