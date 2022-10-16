@@ -22,22 +22,15 @@
   #background{
     background-image: url("../assets/img/background.png");
   }
-
-  #mobile-background {
-    background-image: url("../assets/img/background3.png");
-    width: 2100px;
-    height: 1500px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    right:0rem;
-    z-index: -1;
-    background-position-x: 2.5rem;
-    position:absolute;
-  }
-
+  
   #tablet-background {
     background-image: url("../assets/img/background2.png");
   }
+  
+  #mobile-background {
+    background-image: url("../assets/img/background3.png");
+  }
+
 
   .profile_img {
     background: url("../assets/img/mymemoji.jpg");
