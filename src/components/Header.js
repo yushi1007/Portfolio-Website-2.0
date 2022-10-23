@@ -17,18 +17,20 @@ const Header = () => {
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      return (window.scrollY > 50 || open) ? setBg(true) : setBg(false);
+      return window.scrollY > 50 || open ? setBg(true) : setBg(false);
     });
   });
 
   return (
     <div id="navbar" className="navbar-box">
       <div
-        className={`${open ? "navbar active" : "navbar"} ${
-              bg || open
-                ? "backdrop-filter backdrop-blur-lg bg-opacity-30 h-16 shadow-md shadow-indigo-200/10"
-                : "h-24"
-             } 
+        className={`
+        ${open ? "navbar active" : "navbar"} 
+        ${
+          bg || open
+            ? "backdrop-filter backdrop-blur-lg bg-opacity-30 h-16 shadow-md shadow-indigo-200/10"
+            : "h-24"
+        } 
          w-full h-full lg:flex lg:items-center lg:justify-between items-center`}
       >
         <div className="list-container container mx-auto flex h-full items-center justify-between px-6">

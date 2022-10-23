@@ -14,7 +14,7 @@ const Home = () => {
       ></div>
       <div
         id="mobile-background"
-        className="absolute w-[2100px] h-[1500px] bg-no-repeat bg-cover right-0 bg-[center_right_-2.5rem] z-[-1] lg:hidden md:hidden block"
+        className="bg-position absolute w-[2100px] h-[1500px] bg-no-repeat bg-cover right-0 bg-[center_right_-2.5rem] z-[-1] top-0 lg:hidden md:hidden block"
       ></div>
       <div
         id="tablet-background"
