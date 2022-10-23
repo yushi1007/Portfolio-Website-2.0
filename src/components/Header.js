@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 import { navigation } from "../data/data";
 
 const Header = () => {
-  const [bg, setBg] = useState(false);
+  const [bg, setBg] = useState(true);
   const [open, setOpen] = useState(false);
 
   const handleNavbarClick = () => {
@@ -17,14 +17,18 @@ const Header = () => {
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      return window.scrollY > 50 ? setBg(true) : setBg(false);
+      return (window.scrollY > 50 || open) ? setBg(true) : setBg(false);
     });
   });
 
   return (
     <div id="navbar" className="navbar-box">
       <div
-        className={`${open ? "navbar active" : "navbar"} backdrop-filter backdrop-blur-lg bg-opacity-30 border-b-[0.5px] border-gray-600
+        className={`${open ? "navbar active" : "navbar"} ${
+              bg || open
+                ? "backdrop-filter backdrop-blur-lg bg-opacity-30 h-16 shadow-md shadow-indigo-200/10"
+                : "h-24"
+             } 
          w-full h-full lg:flex lg:items-center lg:justify-between items-center`}
       >
         <div className="list-container container mx-auto flex h-full items-center justify-between px-6">
