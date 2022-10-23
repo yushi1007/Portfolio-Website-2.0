@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 import { navigation } from "../data/data";
 
 const Header = () => {
-  const [bg, setBg] = useState(true);
+  const [bg, setBg] = useState(false);
   const [open, setOpen] = useState(false);
 
   const handleNavbarClick = () => {
