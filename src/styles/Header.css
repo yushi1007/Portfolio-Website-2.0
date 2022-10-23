@@ -115,15 +115,28 @@
   }
 
   .link-container {
-    height: 100%;
+    display: flex!important;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    height: 0;
+    opacity: 0;
     width: 100%;
-    margin-top: 10rem;
+    transition: .5s;
   }
 
-  .navlink {
-    width: 0px;
-    padding: 0;
-    margin: 0;
+  .link-container .navlink {
+    align-items: center;
+    display: block;
+    justify-content: center;
+  }
+
+  .navbar.active .link-container {
+    height: 100vh;
+    opacity: 1;
   }
 
   .hamburger {
@@ -157,11 +170,6 @@
 
   .navbar.active .logo {
     display: none;
-  }
-
-  .navbar.active .navlink {
-    display: contents;
-    margin-top: 1vh;
   }
 
   .navbar.active .list-container .navlink li {
