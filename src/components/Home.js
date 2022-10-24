@@ -10,7 +10,7 @@ const Home = () => {
     >
       <div
         id="background"
-        className="absolute w-[2100px] h-[1500px] bg-no-repeat bg-cover right-0 top-0 bg-[center_right_-2.5rem] z-[-1] lg:block hidden"
+        className="absolute bg-no-repeat bg-cover right-0 top-0 bg-[center_right_-2.5rem] z-[-1] lg:block hidden"
       ></div>
       <div
         id="mobile-background"
