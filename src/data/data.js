@@ -13,6 +13,7 @@ import ProjectImage4 from "../assets/img/amazonclone.png";
 import ProjectImage5 from "../assets/img/disneyclone.png";
 import ProjectImage6 from "../assets/img/spacebuddies.png";
 import ProjectImage7 from "../assets/img/oldportfolio.png";
+import ProjectImage8 from "../assets/img/newportfolio.png";
 import { FaLinkedin, FaMediumM } from "react-icons/fa";
 import { FiInstagram, FiGithub } from "react-icons/fi";
 
@@ -250,13 +251,13 @@ export const projects = [
     repo: "https://github.com/yushi1007/portfolio-website",
   },
   {
-    image: "",
+    image: ProjectImage8,
     name: "New Portfolio Website",
     description: "This is my new portfolio website. Built with React and Tailwind CSS.",
     tags: ["REACT", "HTML", "Tailwind CSS"],
     frontend: "",
     backend: "",
-    live: "",
+    live: "https://velvety-paprenjak-c39d76.netlify.app",
     video: "",
     repo: "",
   },
