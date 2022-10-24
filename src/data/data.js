@@ -241,7 +241,7 @@ export const projects = [
   },
   {
     image: ProjectImage7,
-    name: "Previous Portfolio Website",
+    name: "Portfolio Website Version 1.0",
     description: "This is my previous portfolio website. Built with React and Vanilla CSS.",
     tags: ["REACT", "HTML", "CSS", "EMAILJS"],
     frontend: "",
@@ -252,7 +252,7 @@ export const projects = [
   },
   {
     image: ProjectImage8,
-    name: "New Portfolio Website",
+    name: "Portfolio Website Version 2.0",
     description: "This is my new portfolio website. Built with React and Tailwind CSS.",
     tags: ["REACT", "HTML", "Tailwind CSS"],
     frontend: "",
