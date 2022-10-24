@@ -121,36 +121,3 @@ const Header = () => {
 };
 
 export default Header;
-
-// <header
-//   className={`${
-//     bg
-//       ? "backdrop-filter backdrop-blur-lg bg-opacity-30 border-b-[0.5px] h-16"
-//       : "h-24"
-//   } flex items-center fixed top-0 w-full text-white z-10 transition-all duration-300 border-gray-600`}
-// >
-//   <div className="container mx-auto h-full flex items-center justify-between px-6">
-//     <Link
-//       to="about"
-//       activeClass="active"
-//       spy={true}
-//       smooth={true}
-//       duration={500}
-//       offset={-70}
-//       className="cursor-pointer"
-//     >
-//       <Bounce top cascade duration={800}>
-//         <h1 className="w-full text-base font-semibold uppercase">Yu Shi</h1>
-//       </Bounce>
-//     </Link>
-//     <div className="hidden lg:block">
-//       <Navbar />
-//     </div>
-//     <div className="hidden lg:block">
-//       <Socials />
-//     </div>
-//     <div className="lg:hidden">
-//       <MobileNavbar />
-//     </div>
-//   </div>
-// </header>
