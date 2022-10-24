@@ -1,8 +1,5 @@
 import React from "react";
 import ProjectTag from "./ProjectTag";
-import { MdLiveTv } from "react-icons/md";
-import { DiGithubAlt } from "react-icons/di";
-import { CgWebsite } from "react-icons/cg";
 
 const ProjectCard = ({ projectItem, projectTags }) => {
   const tagItems = projectTags.map((tag, index) => {

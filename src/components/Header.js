@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Socials from "./Socials";
 import { Link } from "react-scroll";
 import { navigation } from "../data/data";
+import Resume from '../assets/resume/Resume.pdf'
 
 const Header = () => {
   const [bg, setBg] = useState(false);
@@ -90,7 +91,7 @@ const Header = () => {
               })}
               <li className="text-white text-base font-normal cursor-pointer">
                 <a
-                  href=""
+                  href={Resume}
                   className="transition-all duration-300 border-2 px-4 py-2 hover:bg-indigo-600 text-indigo-300 hover:text-white border-indigo-600 rounded"
                   target="_blank"
                   rel="noreferrer"
