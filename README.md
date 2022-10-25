@@ -36,7 +36,3 @@ Or if you have any question/feedback, please do not hesitate to reach out to me!
         <td align="center"><a href="https://lokkeestudios.com/"><img src="https://user-images.githubusercontent.com/75753187/197653083-7d9733e6-f142-48b0-8530-3fa85ba746bd.png" width="100px;" alt="avarta"/><br/><b>LOKKEE STUDIOS</b></a><br/></td>
     </tr>
 </table>
-
-- Github:[@ZhengJian(Jay)Liu](https://github.com/zhengjianliu) 
-- Linked:[LinkedIn](https://www.linkedin.com/in/zhengjian-jay-liu-33776553/)
-- Portfolio:[Website](https://zhengjianliu.com/)
