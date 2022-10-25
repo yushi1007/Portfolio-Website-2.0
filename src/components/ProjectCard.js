@@ -23,7 +23,7 @@ const ProjectCard = ({ projectItem, projectTags }) => {
       />
       <div className="absolute bottom-0 right-0 w-full h-full bg-gradient-to-t from-neutral-900"></div>
       <div className="absolute bottom-3 left-0 lg:px-6 md:px-6 px-4 py-4 w-full">
-        <h4 className="mb-5 text-3xl lg:text-4xl md:text-4l font-semibold tracking-tight">{projectItem.name}</h4>
+        <h1 className="mb-5 text-3xl lg:text-4xl md:text-4l font-semibold tracking-tight">{projectItem.name}</h1>
         <p className="mb-5 text-[13px] leading-normal">{projectItem.description}</p>
         <div className="">
           <div className="flex flex-wrap lg:gap-1 md:gap-3 gap-2 border-b-[0.5px] border-neutral-50/60 pb-3">

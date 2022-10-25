@@ -34,10 +34,10 @@ const About = () => {
             <ul className="flex flex-wrap text-gray-400">
               {skills.map((skill, index) => {
                 return (
-                  <p key={index} className="w-1/2 font-medium mb-2.5">
+                  <li key={index} className="w-1/2 font-medium mb-2.5">
                     <span className="before:content-['▸'] before:mr-3 before:text-indigo-600"></span>
                     {skill.name}
-                  </p>
+                  </li>
                 );
               })}
             </ul>
