@@ -1,5 +1,5 @@
 import React from "react";
-import Email from "../assets/svg/email.svg";
+import Email from "../../assets/svg/email.svg";
 
 const Contact = () => {
   return (

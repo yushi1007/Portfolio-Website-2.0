@@ -37,9 +37,6 @@ const ProjectCard = ({ projectItem, projectTags }) => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  {/* <span className="lg:text-xl md:text-xl text-sm">
-                    <DiGithubAlt />
-                  </span> */}
                   <span>Repo</span>
                 </a>
               ) : null}
@@ -52,9 +49,6 @@ const ProjectCard = ({ projectItem, projectTags }) => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  {/* <span className="lg:text-xl md:text-xl text-sm">
-                    <DiGithubAlt />
-                  </span> */}
                   <span>Frontend</span>
                 </a>
               ) : null}
@@ -67,9 +61,6 @@ const ProjectCard = ({ projectItem, projectTags }) => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  {/* <span className="lg:text-xl md:text-xl text-sm">
-                    <DiGithubAlt />
-                  </span> */}
                   <span>Backend</span>
                 </a>
               ) : null}
@@ -97,9 +88,6 @@ const ProjectCard = ({ projectItem, projectTags }) => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  {/* <span className="lg:text-xl md:text-xl text-sm">
-                    <MdLiveTv />
-                  </span> */}
                   <span>Video</span>
                 </a>
               ) : null}

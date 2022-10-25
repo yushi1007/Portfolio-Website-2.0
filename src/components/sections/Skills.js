@@ -1,5 +1,5 @@
 import React from "react";
-import { skillImages } from "../data/data";
+import { skillImages } from "../../data/data";
 
 const Skills = () => {
   return (

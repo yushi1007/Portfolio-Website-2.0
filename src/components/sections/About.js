@@ -1,5 +1,5 @@
 import React from "react";
-import { aboutMe, skills } from "../data/data";
+import { aboutMe, skills } from "../../data/data";
 
 const About = () => {
   return (
