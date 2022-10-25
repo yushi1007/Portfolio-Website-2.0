@@ -38,6 +38,7 @@ const Header = () => {
           <div className="logo flex items-center h-[64px]">
             <Link
               to="about"
+              className="cursor-pointer"
               activeClass="active"
               spy={true}
               smooth={true}
