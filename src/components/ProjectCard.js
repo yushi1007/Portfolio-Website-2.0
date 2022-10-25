@@ -13,12 +13,13 @@ const ProjectCard = ({ projectItem, projectTags }) => {
       return false;
     }
   };
+
   return (
-    <div className="relative overflow-hidden rounded-lg md:rounded-lg lg:rounded-lg shadow-lg shadow-indigo-200/20 cursor-pointer">
+    <div className="relative overflow-hidden rounded-lg md:rounded-lg lg:rounded-lg shadow-lg shadow-indigo-200/20 cursor-pointer group">
       <img
         src={projectItem.image}
         alt="project_images"
-        className="object-cover w-full h-[450px] transition-all duration-500"
+        className="object-cover w-full h-[450px] group-hover:scale-110 transition-all duration-500"
       />
       <div className="absolute bottom-0 right-0 w-full h-full bg-gradient-to-t from-neutral-900"></div>
       <div className="absolute bottom-3 left-0 lg:px-6 md:px-6 px-4 py-4 w-full">
@@ -73,9 +74,6 @@ const ProjectCard = ({ projectItem, projectTags }) => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  {/* <span className="lg:text-xl md:text-xl text-sm">
-                    <CgWebsite />
-                  </span> */}
                   <span>Live</span>
                 </a>
               ) : null}

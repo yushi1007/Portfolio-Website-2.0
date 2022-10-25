@@ -34,7 +34,7 @@ const BlogCard = ({ title, image, link, tags, pubDate }) => {
               rel="noreferrer"
             >
               Read More
-              <button className="animate-bounce w-4 h-4 ml-2">
+              <button aria-label="read more" className="animate-bounce w-4 h-4 ml-2">
                 <MdArrowForward />
               </button>
             </a>

@@ -51,21 +51,25 @@ export const social = [
     icon: <FaLinkedin />,
     href: "https://www.linkedin.com/in/yushi95",
     color: "text-sky-500",
+    ariaLabel: "LinkedIn"
   },
   {
     icon: <FiInstagram />,
     href: "https://www.instagram.com/yushi.95",
     color: "text-pink-600",
+    ariaLabel: "Instagram"
   },
   {
     icon: <FiGithub />,
     href: "https://github.com/yushi1007",
     color: "text-white",
+    ariaLabel: "Github"
   },
   {
     icon: <FaMediumM />,
     href: "https://yushi95.medium.com/",
     color: "text-white",
+    ariaLabel: "Medium"
   },
 ];
 
