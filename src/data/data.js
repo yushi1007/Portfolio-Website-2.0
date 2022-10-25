@@ -259,6 +259,6 @@ export const projects = [
     backend: "",
     live: "https://www.yushi.dev/",
     video: "",
-    repo: "",
+    repo: "https://github.com/yushi1007/Portfolio-Website-2.0",
   },
 ];
