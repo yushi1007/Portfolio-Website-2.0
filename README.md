@@ -1,1 +1,40 @@
-# Descriptions are coming soon ...
+<div align="center">
+  <img alt="Logo" src="https://user-images.githubusercontent.com/75753187/197651348-b0160196-7401-4102-aa0c-4f916d5cdd68.png" width="100" />
+</div>
+<h1 align="center">
+  https://www.yushi.dev/
+</h1>
+<p align="center">
+Welcome to my portfolio website v2.0, thank you for checking it out. 
+</p>
+
+![demo](https://user-images.githubusercontent.com/75753187/197652185-e4576710-8121-4a0d-a683-11985dc4e470.png)
+
+### 🌐 [Repo](https://github.com/yushi1007/Portfolio-Website-2.0) | [Live](https://www.yushi.dev/) 
+
+If you like my portfolio website, please give a ⭐️! Thank you so much.
+
+Or if you have any question/feedback, please do not hesitate to reach out to me! 
+
+## Creator
+
+👤 **Yu Shi**
+
+- Github:[@YUSHI](https://github.com/yushi1007) 
+- Linked:[LinkedIn](https://www.linkedin.com/in/yushi95/)
+
+# Technologies Used
+
+- React
+
+## Credits
+
+<table>
+    <tr>
+        <td align="center"><a href="https://zhengjianliu.com/"><img src="https://user-images.githubusercontent.com/75753187/119867297-b9e02a80-beeb-11eb-86b4-607b16764164.jpeg" width="100px;" alt="avarta"/><br/><b>Zhengjian(Jay) Liu</b></a><br/></td>
+    </tr>
+</table>
+
+- Github:[@ZhengJian(Jay)Liu](https://github.com/zhengjianliu) 
+- Linked:[LinkedIn](https://www.linkedin.com/in/zhengjian-jay-liu-33776553/)
+- Portfolio:[Website](https://zhengjianliu.com/)
