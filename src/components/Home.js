@@ -18,7 +18,7 @@ const Home = () => {
       ></div>
       <div
         id="tablet-background"
-        className="absolute w-[2100px] h-[1500px] bg-no-repeat bg-cover right-0 top-0 bg-[center_right_-2.5rem] z-[-1] lg:hidden md:block hidden"
+        className="absolute w-full h-[1500px] bg-no-repeat bg-cover right-0 top-0 bg-[center_right_-2.5rem] z-[-1] lg:hidden md:block hidden"
       ></div>
       <div className="relative container mx-auto h-full px-6">
         <div className="flex items-center h-full pt-8">
