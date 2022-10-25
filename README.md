@@ -25,7 +25,7 @@ Or if you have any question/feedback, please do not hesitate to reach out to me!
 
 # Technologies Used
 
-- React
+![](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
 ## Credits
 
