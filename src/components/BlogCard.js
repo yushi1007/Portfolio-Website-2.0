@@ -28,6 +28,7 @@ const BlogCard = ({ title, image, link, tags, pubDate }) => {
           <div className="flex flex-wrap mb-3 mt-2">{blogTags}</div>
           <div>
             <a
+              aria-aria-label={title}
               href={link}
               className="text-indigo-300 inline-flex items-center"
               target="_blank"
