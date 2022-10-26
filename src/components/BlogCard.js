@@ -8,7 +8,7 @@ const BlogCard = ({ title, image, link, tags, pubDate }) => {
   });
 
   return (
-    <div className="relative overflow-hidden rounded-lg md:rounded-lg lg:rounded-lg shadow-lg shadow-indigo-200/20 cursor-pointer transition-all duration-300 hover:-translate-y-2">
+    <div className="relative overflow-hidden rounded-lg md:rounded-lg lg:rounded-lg shadow-lg shadow-indigo-200/20 cursor-pointer transition-all duration-300 hover:-translate-y-2 group">
       <div className="h-full rounded-lg overflow-hidden shadow-lg shadow-indigo-200/20">
         <div>
           <a href={link} target="_blank" rel="noreferrer">
@@ -35,7 +35,7 @@ const BlogCard = ({ title, image, link, tags, pubDate }) => {
               rel="noreferrer"
             >
               Read More
-              <button aria-label="read more" className="animate-bounce w-4 h-4 ml-2">
+              <button aria-label="read more" className="group-hover:animate-bounce transition-all duration-500 w-4 h-4 ml-2">
                 <MdArrowForward />
               </button>
             </a>
