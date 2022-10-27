@@ -1,8 +1,10 @@
 import React from "react";
 import { social } from "../data/data";
+import { Fade } from "react-awesome-reveal";
 
 const Socials = () => {
   return (
+    <Fade direction="down" delay={800} cascade duration={150}>
       <ul className="flex space-x-6">
         {social.map((item, index) => {
           const { href, icon, color, ariaLabel } = item;
@@ -21,6 +23,7 @@ const Socials = () => {
           );
         })}
       </ul>
+    </Fade>
   );
 };
 

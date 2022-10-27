@@ -1,4 +1,5 @@
 import React from "react";
+import { Fade } from "react-awesome-reveal";
 import { skillImages } from "../../data/data";
 
 const Skills = () => {
@@ -8,19 +9,21 @@ const Skills = () => {
       className="bg-gray-800 text-white mt-40 flex justify-between items-center mx-auto px-6 md:px-6 lg:px-6 w-full lg:py-12 md:10 py-8"
     >
       <div className="container mx-auto">
-        <div className="grid grid-cols-8 md:grid-flow-row lg:grid-flow-row">
-          {skillImages.map((skillImage, index) => {
-            return (
-              <div className="flex items-center justify-center" key={index}>
-                <img
-                  className="h-8 md:h-16 lg:h-20"
-                  src={skillImage.image}
-                  alt="skill png"
-                />
-              </div>
-            );
-          })}
-        </div>
+        <Fade direction="left" cascade triggerOnce="true">
+          <div className="grid grid-cols-8 md:grid-flow-row lg:grid-flow-row">
+            {skillImages.map((skillImage, index) => {
+              return (
+                <div className="flex items-center justify-center" key={index}>
+                  <img
+                    className="h-8 md:h-16 lg:h-20"
+                    src={skillImage.image}
+                    alt="skill png"
+                  />
+                </div>
+              );
+            })}
+          </div>
+        </Fade>
       </div>
     </div>
   );

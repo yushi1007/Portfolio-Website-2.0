@@ -1,74 +1,73 @@
-
-@import './Header.css';
+@import "./Header.css";
 
 .navlink li .active {
-  @apply text-indigo-300 transition-all duration-300 
+  @apply text-indigo-300 transition-all duration-300;
 }
 
 /* ----------------------------------------------- */
 /* HOME BACKGROUND */
 /* ----------------------------------------------- */
-  #background{
-    background-image: url("../assets/img/background.png");
-    background-position-y: -30vh;
-  }
-  
-  #tablet-background {
-    background-image: url("../assets/img/background2.png");
-    background-position-y: -25vh;
-  }
-  
-  #mobile-background {
-    background-image: url("../assets/img/background3.png");
-    background-position-y: -38vh;
-  }
+#background {
+  background-image: url("../assets/img/background.png");
+  background-position-y: -30vh;
+}
+
+#tablet-background {
+  background-image: url("../assets/img/background2.png");
+  background-position-y: -25vh;
+}
+
+#mobile-background {
+  background-image: url("../assets/img/background3.png");
+  background-position-y: -38vh;
+}
 
 /* ----------------------------------------------- */
 /* ABOUT ME PAGE PROFILE ANIMATION */
 /* ----------------------------------------------- */
-  .profile_img {
-    background: url("../assets/img/mymemoji.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    box-shadow: inset 0 0 0 9px rgb(255, 255, 255 / 30%);
-    justify-self: center;
-    order: 1;
-    width: 300px;
-    height: 300px;
-    animation: profile_animate 8s ease-in-out infinite 1s;
-  }
+.profile_img {
+  background: url("../assets/img/mymemoji.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: inset 0 0 0 9px rgb(255, 255, 255 / 30%);
+  justify-self: center;
+  order: 1;
+  width: 300px;
+  height: 300px;
+  animation: profile_animate 8s ease-in-out infinite 1s;
+}
 
-  @keyframes profile_animate {
-    0% {
-      border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
-    }
-    50% {
-      border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
-    }
-    100% {
-      border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
-    }
+@keyframes profile_animate {
+  0% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
   }
+  50% {
+    border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+  }
+  100% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+}
 
 /* ----------------------------------------------- */
 /* LOADING PAGE ANIMATION */
 /* ----------------------------------------------- */
-  #loading{
-    animation: loader_animate 1.25s linear forwards;
-  }
+#loading {
+  animation: loader_animate 1.25s linear forwards;
+}
 
-  @keyframes loader_animate {
-    0% {
-      width: 0px;
-      height: 0px;
-    }
-    50% {
-      width: 100px;
-      height: 0;
-    }
-    100% {
-      width: 100px;
-      height: 100px;
-    }
+@keyframes loader_animate {
+  0% {
+    width: 0px;
+    height: 0px;
   }
+  50% {
+    width: 100px;
+    height: 0;
+  }
+  100% {
+    width: 100px;
+    height: 100px;
+  }
+}
