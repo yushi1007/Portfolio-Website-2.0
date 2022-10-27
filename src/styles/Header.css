@@ -1,3 +1,6 @@
+/* ----------------------------------------------- */
+/* NAVBAR */
+/* ----------------------------------------------- */
 .navbar-box {
   position: -webkit-sticky;
   position: sticky;
@@ -72,9 +75,6 @@
   list-style: none;
 }
 
-.hamburger li:nth-child(1) {
-}
-
 .hamburger li:nth-child(2) {
   width: 23px;
 }
@@ -84,7 +84,7 @@
 }
 
 /* ----------------------------------------------- */
-/* MOBILE */
+/* MOBILE HAMBURGER MENU */
 /* ----------------------------------------------- */
 @media only screen and (max-width: 1023px) {
   .list-container {
