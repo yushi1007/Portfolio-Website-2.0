@@ -36,7 +36,7 @@ const Header = () => {
          w-full h-full lg:flex lg:items-center lg:justify-between items-center`}
       >
         <div className="list-container container mx-auto flex h-full items-center justify-between px-6">
-          <Fade direction="down" cascade duration={150}>
+          <Fade direction="down" cascade duration={150} triggerOnce="true">
             <div className="logo flex items-center h-[64px]">
               <Link
                 to="about"
@@ -51,7 +51,7 @@ const Header = () => {
             </div>
           </Fade>
           <div className="link-container">
-            <Fade direction="down" delay={100} cascade duration={150}>
+            <Fade direction="down" delay={100} cascade duration={150} triggerOnce="true">
               <ul className="navlink text-white flex justify-center items-center lg:space-x-12 capitalize text-[15px]">
                 {navigation.map((item, index) => {
                   return (

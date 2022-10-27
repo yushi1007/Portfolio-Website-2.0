@@ -24,28 +24,28 @@ const Home = () => {
       <div className="relative container mx-auto h-full px-6">
         <div className="flex items-center h-full pt-8">
           <div className="flex-1 flex flex-col mt-12 items-center lg:items-start">
-            <Fade direction="up" delay={1000} cascade triggerOnce="true">
+            <Fade direction="up" delay={200} cascade triggerOnce="true">
               <div>
                 <h1 className="font-bold leading-normal md:leading-normal lg:leading-normal text-5xl md:text-6xl lg:text-7xl text-center">
                   Hi There 👋 ,
                 </h1>
               </div>
             </Fade>
-            <Fade direction="up" delay={1200} cascade triggerOnce="true">
+            <Fade direction="up" delay={400} cascade triggerOnce="true">
               <div>
                 <h1 className="font-bold text-5xl md:text-6xl lg:text-7xl text-center">
                   I'm <span className="text-indigo-600">Yu</span>
                 </h1>
               </div>
             </Fade>
-            <Fade direction="up" delay={1400} cascade triggerOnce="true">
+            <Fade direction="up" delay={600} cascade triggerOnce="true">
               <div>
                 <h1 className="leading-10 md:leading-loose lg:leading-loose font-semibold text-2xl md:text-2xl lg:text-4xl text-center mt-3">
                   I am a <TypeWriter />
                 </h1>
               </div>
             </Fade>
-            <Fade direction="up" delay={1600} cascade triggerOnce="true">
+            <Fade direction="up" delay={800} cascade triggerOnce="true">
               <div>
                 <div className="w-full flex justify-center md:justify-center lg:justify-start">
                   <Link
