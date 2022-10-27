@@ -51,25 +51,25 @@ export const social = [
     icon: <FaLinkedin />,
     href: "https://www.linkedin.com/in/yushi95",
     color: "text-sky-500",
-    ariaLabel: "LinkedIn"
+    ariaLabel: "LinkedIn",
   },
   {
     icon: <FiInstagram />,
     href: "https://www.instagram.com/yushi.95",
     color: "text-pink-600",
-    ariaLabel: "Instagram"
+    ariaLabel: "Instagram",
   },
   {
     icon: <FiGithub />,
     href: "https://github.com/yushi1007",
     color: "text-white",
-    ariaLabel: "Github"
+    ariaLabel: "Github",
   },
   {
     icon: <FaMediumM />,
     href: "https://yushi95.medium.com/",
     color: "text-white",
-    ariaLabel: "Medium"
+    ariaLabel: "Medium",
   },
 ];
 
@@ -246,7 +246,8 @@ export const projects = [
   {
     image: ProjectImage7,
     name: "Portfolio Website Version 1.0",
-    description: "This is my previous portfolio website. Built with React and Vanilla CSS.",
+    description:
+      "This is my previous portfolio website. Built with React and Vanilla CSS.",
     tags: ["REACT", "HTML", "CSS", "EMAILJS"],
     frontend: "",
     backend: "",
@@ -257,7 +258,8 @@ export const projects = [
   {
     image: ProjectImage8,
     name: "Portfolio Website Version 2.0",
-    description: "This is my new portfolio website. Built with React and Tailwind CSS.",
+    description:
+      "This is my new portfolio website. Built with React and Tailwind CSS.",
     tags: ["REACT", "HTML", "Tailwind CSS"],
     frontend: "",
     backend: "",

@@ -2,7 +2,8 @@ import React, { useState, useEffect } from "react";
 import Socials from "./Socials";
 import { Link } from "react-scroll";
 import { navigation } from "../data/data";
-import Resume from '../assets/resume/Resume.pdf'
+import { Fade } from "react-awesome-reveal";
+import Resume from "../assets/resume/Resume.pdf";
 
 const Header = () => {
   const [bg, setBg] = useState(false);
@@ -35,24 +36,27 @@ const Header = () => {
          w-full h-full lg:flex lg:items-center lg:justify-between items-center`}
       >
         <div className="list-container container mx-auto flex h-full items-center justify-between px-6">
-          <div className="logo flex items-center h-[64px]">
-            <Link
-              to="about"
-              className="cursor-pointer"
-              activeClass="active"
-              spy={true}
-              smooth={true}
-              duration={700}
-            >
-              <h3 className="">Yu Shi</h3>
-            </Link>
-          </div>
+          <Fade direction="down" cascade duration={150}>
+            <div className="logo flex items-center h-[64px]">
+              <Link
+                to="about"
+                className="cursor-pointer"
+                activeClass="active"
+                spy={true}
+                smooth={true}
+                duration={700}
+              >
+                <h3 className="">Yu Shi</h3>
+              </Link>
+            </div>
+          </Fade>
           <div className="link-container">
-            <ul className="navlink text-white flex justify-center items-center lg:space-x-12 capitalize text-[15px]">
-              {navigation.map((item, index) => {
-                return (
-                  <li
-                    className="
+            <Fade direction="down" delay={100} cascade duration={150}>
+              <ul className="navlink text-white flex justify-center items-center lg:space-x-12 capitalize text-[15px]">
+                {navigation.map((item, index) => {
+                  return (
+                    <li
+                      className="
                           relative 
                           text-base 
                           font-normal 
@@ -73,34 +77,35 @@ const Header = () => {
                           before:transition 
                           before:ease-in-out 
                           before:duration-300"
-                    key={index}
-                  >
-                    <Link
-                      onClick={closeNavbar}
-                      to={item.href}
-                      activeClass="active"
-                      spy={true}
-                      smooth={true}
-                      duration={700}
-                      offset={-150}
-                      className="transition-all duration-300"
+                      key={index}
                     >
-                      {item.name}
-                    </Link>
-                  </li>
-                );
-              })}
-              <li className="text-white text-base font-normal cursor-pointer">
-                <a
-                  href={Resume}
-                  className="transition-all duration-300 border-2 px-4 py-2 hover:bg-indigo-600 text-indigo-300 hover:text-white border-indigo-600 rounded"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Resume
-                </a>
-              </li>
-            </ul>
+                      <Link
+                        onClick={closeNavbar}
+                        to={item.href}
+                        activeClass="active"
+                        spy={true}
+                        smooth={true}
+                        duration={700}
+                        offset={-150}
+                        className="transition-all duration-300"
+                      >
+                        {item.name}
+                      </Link>
+                    </li>
+                  );
+                })}
+                <li className="text-white text-base font-normal cursor-pointer">
+                  <a
+                    href={Resume}
+                    className="transition-all duration-300 border-2 px-4 py-2 hover:bg-indigo-600 text-indigo-300 hover:text-white border-indigo-600 rounded"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Resume
+                  </a>
+                </li>
+              </ul>
+            </Fade>
           </div>
           <div
             className={open ? "hamburger active" : "hamburger"}

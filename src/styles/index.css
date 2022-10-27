@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 body {
-    background-color: #17171F;
-    font-family: 'Poppins', sans-serif;
+  background-color: #17171f;
+  font-family: "Poppins", sans-serif;
 }
 
 body::-webkit-scrollbar {
-    width: 0px;
-    height: 0px;
-  }
+  width: 0px;
+  height: 0px;
+}
