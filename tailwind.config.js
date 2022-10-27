@@ -6,7 +6,11 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: '#17171F',
+      },
+    },
     animation: {
       float: 'float 3s infinite',
       refloat: 'refloat 3s infinite',

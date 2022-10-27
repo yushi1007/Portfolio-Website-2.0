@@ -5,20 +5,9 @@
   @apply text-indigo-300 transition-all duration-300 
 }
 
-.container-style {
-    height: 100vh; 
-  }
-  
-#tsparticles {   
-    height: 100vh;
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: 0;
-    padding: 0;
-    z-index: 0;
-  }
-
+/* ----------------------------------------------- */
+/* HOME BACKGROUND */
+/* ----------------------------------------------- */
   #background{
     background-image: url("../assets/img/background.png");
     background-position-y: -30vh;
@@ -34,7 +23,9 @@
     background-position-y: -38vh;
   }
 
-
+/* ----------------------------------------------- */
+/* ABOUT ME PAGE PROFILE ANIMATION */
+/* ----------------------------------------------- */
   .profile_img {
     background: url("../assets/img/mymemoji.jpg");
     background-repeat: no-repeat;
@@ -57,5 +48,27 @@
     }
     100% {
       border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+  }
+
+/* ----------------------------------------------- */
+/* LOADING PAGE ANIMATION */
+/* ----------------------------------------------- */
+  #loading{
+    animation: loader_animate 1.25s linear forwards;
+  }
+
+  @keyframes loader_animate {
+    0% {
+      width: 0px;
+      height: 0px;
+    }
+    50% {
+      width: 100px;
+      height: 0;
+    }
+    100% {
+      width: 100px;
+      height: 100px;
     }
   }
