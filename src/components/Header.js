@@ -45,6 +45,7 @@ const Header = () => {
                 spy={true}
                 smooth={true}
                 duration={700}
+                offset={-150}
               >
                 <h3 className="">Yu Shi</h3>
               </Link>
