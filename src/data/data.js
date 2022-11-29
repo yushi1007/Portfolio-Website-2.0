@@ -14,6 +14,7 @@ import ProjectImage5 from "../assets/img/disneyclone.png";
 import ProjectImage6 from "../assets/img/spacebuddies.png";
 import ProjectImage7 from "../assets/img/oldportfolio.png";
 import ProjectImage8 from "../assets/img/newportfolio.png";
+import ProjectImage9 from "../assets/img/animefans.png";
 import { FaLinkedin, FaMediumM } from "react-icons/fa";
 import { FiInstagram, FiGithub } from "react-icons/fi";
 
@@ -140,6 +141,18 @@ export const skillImages = [
 
 // project details
 export const projects = [
+  {
+    image: ProjectImage9,
+    name: "AnimeFans",
+    description:
+      "A anime streaming service made with ReactJS. User can search and watch the anime without ad.",
+    tags: ["REACT", "HTML", "CSS"],
+    frontend: "",
+    backend: "",
+    live: "https://animefans.netlify.app/",
+    video: "",
+    repo: "https://github.com/yushi1007/animefans",
+  },
   {
     image: ProjectImage1,
     name: "Fotoset",
