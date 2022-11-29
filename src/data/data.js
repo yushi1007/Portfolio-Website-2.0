@@ -6,15 +6,15 @@ import SkillImg5 from "../assets/img/angular.png";
 import SkillImg6 from "../assets/img/TypeScript.png";
 import SkillImg7 from "../assets/img/Git.png";
 import SkillImg8 from "../assets/img/creativecloud.png";
-import ProjectImage1 from "../assets/img/fotoset.png";
-import ProjectImage2 from "../assets/img/travelatr.png";
-import ProjectImage3 from "../assets/img/quickpix.png";
-import ProjectImage4 from "../assets/img/amazonclone.png";
-import ProjectImage5 from "../assets/img/disneyclone.png";
-import ProjectImage6 from "../assets/img/spacebuddies.png";
-import ProjectImage7 from "../assets/img/oldportfolio.png";
-import ProjectImage8 from "../assets/img/newportfolio.png";
-import ProjectImage9 from "../assets/img/animefans.png";
+import ProjectImage1 from "../assets/img/animefans.png";
+import ProjectImage2 from "../assets/img/fotoset.png";
+import ProjectImage3 from "../assets/img/travelatr.png";
+import ProjectImage4 from "../assets/img/quickpix.png";
+import ProjectImage5 from "../assets/img/amazonclone.png";
+import ProjectImage6 from "../assets/img/disneyclone.png";
+import ProjectImage7 from "../assets/img/spacebuddies.png";
+import ProjectImage8 from "../assets/img/oldportfolio.png";
+import ProjectImage9 from "../assets/img/newportfolio.png";
 import { FaLinkedin, FaMediumM } from "react-icons/fa";
 import { FiInstagram, FiGithub } from "react-icons/fi";
 
@@ -142,7 +142,7 @@ export const skillImages = [
 // project details
 export const projects = [
   {
-    image: ProjectImage9,
+    image: ProjectImage1,
     name: "AnimeFans",
     description:
       "An anime streaming service made with ReactJS. User can search and watch the anime without ad.",
@@ -154,7 +154,7 @@ export const projects = [
     repo: "https://github.com/yushi1007/animefans",
   },
   {
-    image: ProjectImage1,
+    image: ProjectImage2,
     name: "Fotoset",
     description:
       "A photo sharing application with camera setting information, include map search, and weather search.",
@@ -179,7 +179,7 @@ export const projects = [
     repo: "",
   },
   {
-    image: ProjectImage2,
+    image: ProjectImage3,
     name: "Travelatr",
     description:
       "A travel information website provides latest travel destination recommendations, including facts, and flights search.",
@@ -200,7 +200,7 @@ export const projects = [
     repo: "",
   },
   {
-    image: ProjectImage3,
+    image: ProjectImage4,
     name: "QuickPix",
     description:
       "A photography e-commerce website that allows users place order and sell their own print.",
@@ -212,7 +212,7 @@ export const projects = [
     repo: "",
   },
   {
-    image: ProjectImage4,
+    image: ProjectImage5,
     name: "Amazon Clone",
     description:
       "This is an Amazon Clone that implemented the Stripe payment processor.",
@@ -232,7 +232,7 @@ export const projects = [
     repo: "",
   },
   {
-    image: ProjectImage5,
+    image: ProjectImage6,
     name: "Disney+ Clone",
     description:
       "This is a Disney+ Clone that allows user to sign in with Google account and see all the movies' details.",
@@ -245,7 +245,7 @@ export const projects = [
     repo: "",
   },
   {
-    image: ProjectImage6,
+    image: ProjectImage7,
     name: "Space Buddies",
     description:
       "The encylopedia for space pets! A Ruby CLI application that allows user to sign in or sign up and meet some intergalactic friends!",
@@ -257,7 +257,7 @@ export const projects = [
     repo: "https://github.com/sssandraa/project-1",
   },
   {
-    image: ProjectImage7,
+    image: ProjectImage8,
     name: "Portfolio Website Version 1.0",
     description:
       "This is my previous portfolio website. Built with React and Vanilla CSS.",
@@ -269,7 +269,7 @@ export const projects = [
     repo: "https://github.com/yushi1007/portfolio-website",
   },
   {
-    image: ProjectImage8,
+    image: ProjectImage9,
     name: "Portfolio Website Version 2.0",
     description:
       "This is my new portfolio website. Built with React and Tailwind CSS.",
