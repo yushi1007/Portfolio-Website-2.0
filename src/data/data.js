@@ -145,7 +145,7 @@ export const projects = [
     image: ProjectImage9,
     name: "AnimeFans",
     description:
-      "A anime streaming service made with ReactJS. User can search and watch the anime without ad.",
+      "An anime streaming service made with ReactJS. User can search and watch the anime without ad.",
     tags: ["REACT", "HTML", "CSS"],
     frontend: "",
     backend: "",
