@@ -146,7 +146,7 @@ export const projects = [
     name: "AnimeFans",
     description:
       "An anime streaming service made with ReactJS. User can search and watch the anime without ad.",
-    tags: ["REACT", "HTML", "CSS"],
+    tags: ["React", "HTML", "CSS"],
     frontend: "",
     backend: "",
     live: "https://animefans.netlify.app/",
