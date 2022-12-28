@@ -1,5 +1,5 @@
 import React from "react";
-import TypeWriter from "../TypeWriter";
+import TypeWriter from "../components/TypeWriter";
 import { Link } from "react-scroll";
 import { Fade } from "react-awesome-reveal";
 

@@ -1,6 +1,6 @@
 import React from "react";
 import { Fade } from "react-awesome-reveal";
-import Email from "../../assets/svg/email.svg";
+import Email from "../assets/svg/email.svg";
 
 const Contact = () => {
   return (
