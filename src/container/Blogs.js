@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import BlogCard from "../BlogCard";
+import BlogCard from "../components/BlogCard";
 import { Fade } from "react-awesome-reveal";
 
 const Blogs = () => {

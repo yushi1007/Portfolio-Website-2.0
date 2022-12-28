@@ -154,6 +154,18 @@ export const projects = [
     repo: "https://github.com/yushi1007/animefans",
   },
   {
+    image: ProjectImage9,
+    name: "Portfolio Website Version 2.0",
+    description:
+      "This is my new portfolio website. Built with React and Tailwind CSS.",
+    tags: ["REACT", "HTML", "Tailwind CSS"],
+    frontend: "",
+    backend: "",
+    live: "https://www.yushi.dev/",
+    video: "",
+    repo: "https://github.com/yushi1007/Portfolio-Website-2.0",
+  },
+  {
     image: ProjectImage2,
     name: "Fotoset",
     description:
@@ -267,17 +279,5 @@ export const projects = [
     live: "https://yushi-dev.netlify.app/",
     video: "",
     repo: "https://github.com/yushi1007/portfolio-website",
-  },
-  {
-    image: ProjectImage9,
-    name: "Portfolio Website Version 2.0",
-    description:
-      "This is my new portfolio website. Built with React and Tailwind CSS.",
-    tags: ["REACT", "HTML", "Tailwind CSS"],
-    frontend: "",
-    backend: "",
-    live: "https://www.yushi.dev/",
-    video: "",
-    repo: "https://github.com/yushi1007/Portfolio-Website-2.0",
   },
 ];

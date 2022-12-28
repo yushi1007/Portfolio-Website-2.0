@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Socials from "./Socials";
+import Socials from "../components/Socials";
 import { Link } from "react-scroll";
 import { navigation } from "../data/data";
 import { Fade } from "react-awesome-reveal";
