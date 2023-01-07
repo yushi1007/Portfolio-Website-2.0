@@ -43,7 +43,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="flex justify-center items-center text-gray-400 text-center text-[10px] lg:text-xs leading-loose">
-          <p>Copyright &copy; 2022 Yu Shi All Rights Reserved.</p>
+          <p>Copyright &copy; 2023 Yu Shi All Rights Reserved.</p>
         </div>
       </div>
     </footer>
