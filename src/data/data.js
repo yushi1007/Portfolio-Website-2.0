@@ -104,7 +104,7 @@ export const skills = [
     name: "TypeScript",
   },
   {
-    name: "Tailwind",
+    name: "Java",
   },
   {
     name: "CSS",
