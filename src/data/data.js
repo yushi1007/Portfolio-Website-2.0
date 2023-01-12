@@ -107,7 +107,7 @@ export const skills = [
     name: "Java",
   },
   {
-    name: "CSS",
+    name: "SCSS",
   },
 ];
 
