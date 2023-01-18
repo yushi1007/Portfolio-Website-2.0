@@ -36,8 +36,8 @@ const ProjectCard = ({ projectItem, projectTags }) => {
               {tagItems}
             </div>
             <div className="flex flex-gap mt-4">
-              <div>
-                {checkLink(projectItem.repo) ? (
+              {checkLink(projectItem.repo) ? (
+                <div className="mr-3">
                   <a
                     href={projectItem.repo}
                     className="lg:text-base md:text-base text-[10px] transition-all duration-300 border-2 px-3 py-2 lg:px-4 lg:py-2 md:px-4 md:py-2 hover:bg-indigo-600 text-indigo-300 hover:text-white border-indigo-600 rounded font-semibold flex items-center space-x-1"
@@ -46,10 +46,10 @@ const ProjectCard = ({ projectItem, projectTags }) => {
                   >
                     <span>Repo</span>
                   </a>
-                ) : null}
-              </div>
-              <div className="mr-3">
-                {checkLink(projectItem.frontend) ? (
+                </div>
+              ) : null}
+              {checkLink(projectItem.frontend) ? (
+                <div className="mr-3">
                   <a
                     href={projectItem.frontend}
                     className="lg:text-base md:text-base text-[10px] transition-all duration-300 border-2 px-3 py-2 lg:px-4 lg:py-2 md:px-4 md:py-2 hover:bg-indigo-600 text-indigo-300 hover:text-white border-indigo-600 rounded font-semibold flex items-center space-x-1"
@@ -58,10 +58,10 @@ const ProjectCard = ({ projectItem, projectTags }) => {
                   >
                     <span>Frontend</span>
                   </a>
-                ) : null}
-              </div>
-              <div className="mr-3">
-                {checkLink(projectItem.backend) ? (
+                </div>
+              ) : null}
+              {checkLink(projectItem.backend) ? (
+                <div className="mr-3">
                   <a
                     href={projectItem.backend}
                     className="lg:text-base md:text-base text-[10px] transition-all duration-300 border-2 px-3 py-2 lg:px-4 lg:py-2 md:px-4 md:py-2 hover:bg-indigo-600 text-indigo-300 hover:text-white border-indigo-600 rounded font-semibold flex items-center space-x-1"
@@ -70,10 +70,10 @@ const ProjectCard = ({ projectItem, projectTags }) => {
                   >
                     <span>Backend</span>
                   </a>
-                ) : null}
-              </div>
-              <div className="mr-3">
-                {checkLink(projectItem.live) ? (
+                </div>
+              ) : null}
+              {checkLink(projectItem.live) ? (
+                <div className="mr-3">
                   <a
                     href={projectItem.live}
                     className="lg:text-base md:text-base text-[10px] transition-all duration-300 border-2 px-3 py-2 lg:px-4 lg:py-2 md:px-4 md:py-2 hover:bg-indigo-600 text-indigo-300 hover:text-white border-indigo-600 rounded font-semibold flex items-center space-x-1"
@@ -82,10 +82,10 @@ const ProjectCard = ({ projectItem, projectTags }) => {
                   >
                     <span>Live</span>
                   </a>
-                ) : null}
-              </div>
-              <div className="mr-3">
-                {checkLink(projectItem.video) ? (
+                </div>
+              ) : null}
+              {checkLink(projectItem.video) ? (
+                <div className="mr-3">
                   <a
                     href={projectItem.video}
                     className="lg:text-base md:text-base text-[10px] transition-all duration-300 border-2 px-3 py-2 lg:px-4 lg:py-2 md:px-4 md:py-2 hover:bg-indigo-600 text-indigo-300 hover:text-white border-indigo-600 rounded font-semibold flex items-center space-x-1"
@@ -94,8 +94,8 @@ const ProjectCard = ({ projectItem, projectTags }) => {
                   >
                     <span>Video</span>
                   </a>
-                ) : null}
-              </div>
+                </div>
+              ) : null}
             </div>
           </div>
         </div>
