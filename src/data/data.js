@@ -150,7 +150,7 @@ export const projects = [
     frontend: "",
     backend: "",
     live: "",
-    video: "",
+    video: "https://www.loom.com/share/bde060385b60407bace6dd35e243214c",
     repo: "https://github.com/yushi1007/animefans",
   },
   {
