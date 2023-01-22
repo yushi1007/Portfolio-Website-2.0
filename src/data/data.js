@@ -240,7 +240,7 @@ export const projects = [
     frontend: "https://github.com/yushi1007/Amazon-Clone/tree/main/src",
     backend: "https://github.com/yushi1007/Amazon-Clone/tree/main/functions",
     live: "https://e-commerce-store-app.web.app/",
-    video: "",
+    video: "https://drive.google.com/file/d/1qtve_HmUXz6AzqzXp3CRZUx4VQgI6N4q/view?usp=sharing",
     repo: "",
   },
   {
@@ -253,7 +253,7 @@ export const projects = [
     backend:
       "https://github.com/yushi1007/Disney-Plus-Clone/blob/main/src/firebase.js",
     live: "https://disney-plus-clone-app-e706d.web.app/",
-    video: "",
+    video: "https://drive.google.com/file/d/1V-OK1z8v-S1G2Izqt5F0ey5ePj6FaFdp/view?usp=sharing",
     repo: "",
   },
   {
