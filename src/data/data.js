@@ -252,7 +252,7 @@ export const projects = [
     frontend: "https://github.com/yushi1007/Disney-Plus-Clone",
     backend:
       "https://github.com/yushi1007/Disney-Plus-Clone/blob/main/src/firebase.js",
-    live: "https://disney-plus-clone-app-e706d.web.app/",
+    live: "",
     video: "https://drive.google.com/file/d/1V-OK1z8v-S1G2Izqt5F0ey5ePj6FaFdp/view?usp=sharing",
     repo: "",
   },
